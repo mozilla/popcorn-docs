@@ -2,11 +2,11 @@
 
 ## Purpose ##
 
-Apply css class to jquery selector. Selector is relative to plugin target's id
+Apply a class by CSS Selector. Selector is relative to plugin target's `id`
 
 ## Options ##
 
-* **class** - specifies the class to apply to the plugin container, can be seperated by spaces for more then one class
+* `**class**` - specifies the class to apply to the plugin container, can be seperated by spaces for more then one class
 
 ## Examples ##
 

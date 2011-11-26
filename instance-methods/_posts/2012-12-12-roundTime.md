@@ -2,7 +2,7 @@
 
 ## Purpose ##
 
-roundTime() returns the media's current time rounded to the closest second. roundTime() takes no arguments.
+`roundTime()` returns the media's current time rounded to the closest second.
 
 ## Options ##
 
@@ -18,4 +18,4 @@ roundTime() returns the media's current time rounded to the closest second. roun
 
 ## Related ##
 
-* currentTime()
+* `currentTime()`

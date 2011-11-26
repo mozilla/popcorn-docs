@@ -2,7 +2,7 @@
 
 ## Purpose ##
 
-readyState() is a Popcorn instance method, defined as a passthrough accessor to the HTMLMediaElement prototype property of the same name. readystate returns a value from 0 - 4 describing at which state in loading the video is at. readystate() takes no arguements.
+`readyState()` is a passthrough accessor to the HTMLMediaElement property of the same name. `readystate()` returns a value from 0 - 4 describing at which state in loading the video is at. `readystate()` takes no arguements.
 
 ## Options ##
 
