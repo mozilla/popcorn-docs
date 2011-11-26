@@ -1,12 +1,12 @@
-# playbackrate #
+# playbackrate( [rate] ) #
 
 ## Purpose ##
 
-Get/set the Popcorn video object instance playbackRate
+Get or set playbackrate of calling Popcorn instance
 
 ## Options ##
 
-* **rate** - an optional parameter that if it exists will set the playback rate, and if it does not, will return the playback rate
+* `**rate**` - number. Optional parameter that will set the playbackrate if provided and return the playbackrate if not.
 
 ## Example ##
 

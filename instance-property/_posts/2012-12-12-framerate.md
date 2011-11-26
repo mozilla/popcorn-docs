@@ -6,7 +6,7 @@ You can set the framerate to be used for all start/end points of a given Popcorn
 
 ## Options ##
 
-* **frameRate** - a number representing the frame rate to be used
+* `**frameRate**` - number. Framerate to be used. Will be used to calculate SMPTE formatted times.
 
 ## Example ##
 

@@ -1,4 +1,4 @@
-# currentTime #
+# currentTime( [time] ) #
 
 ## Purpose ##
 
@@ -6,7 +6,8 @@ Set or Get the Popcorn video object instance currentTime
 
 ## Options ##
 
-* **seconds** - if seconds exists, we are setting the currentTime ( go to that time in the video ), and if it is not present, we are returning what the currentTime is
+* `**time**` - number of seconds or SMPTE format string. If a `time` parameter is passed, set the media's current time to this value. If no `time` parameter, return the value of the `currentTime` property in seconds.
+
 
 ## Use Case ##
 
