@@ -1,0 +1,9 @@
+# Github defaults
+safe: true
+lsi: false
+pygments: true
+
+# Popcorn.js settings
+auto: true
+server: true
+
