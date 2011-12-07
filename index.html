@@ -1,104 +1,48 @@
 ---
-layout: post
-title: Popcorn.js Documentation
+layout: default 
 ---
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
-    <meta name="generator" content="joDoc">
-    <title>Popcorn.js API Documentation</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="mobile.css" media="only screen and (max-device-width: 1024px)">
-    <link rel="stylesheet" type="text/css" href="prettify/prettify.css">
-  </head>
-  <body>
-    <div id="header">
-      <h1><a href="index.html">Popcorn<strong>.js</strong> Documentation</a></h1>
-      <small>
-        <select>
-          <optgroup label="English" value="en">
-            <option value="edge">edge</option>
-            <option selected value="1.2.0">1.2.0</option>
-            <option value="1.1.0">1.1.0</option>
-            <option value="1.0.0rc3">1.0.0rc3</option>
-            <option value="1.0.0rc2">1.0.0rc2</option>
-            <option value="1.0.0rc1">1.0.0rc1</option>
-            <option value="1.0.0">1.0.0</option>
-            <option value="0.9.6">0.9.6</option>
-            <option value="0.9.5.1">0.9.5.1</option>
-            <option value="0.9.5">0.9.5</option>
-            <option value="0.9.4">0.9.4</option>
-            <option value="0.9.3">0.9.3</option>
-            <option value="0.9.2">0.9.2</option>
-          </optgroup>
-          <optgroup label="Español" value="es"><option value="1.0.0">1.0.0</option></optgroup>
-          <optgroup label="Japanese" value="jp"><option value="0.9.5">0.9.5</option></optgroup>
-        </select>
-      </small>
-    </div>
-    <div id="subheader">
-      <h1>Home</h1>
-      <small></small>
-    </div>
-
-    <div id="sidebar">
-      <div class="vertical_divider"></div>
-      <h1>API Reference</h1>
+<div id="sidebar">
+  <div class="vertical_divider"></div>
+  <h1>API Reference</h1>
+  <ul>
+    {% capture get_items %}
+      {% for cat in site.categories %}
+        {{ cat | first }}
+      {% endfor %}
+    {% endcapture %}
+    {% capture num_words %}
+      {{ get_items | split:' ' |  sort | join:' ' | number_of_words }} 
+    {% endcapture %}
+    {% for item in (1..num_words) %}
+      {% capture this_word %}
+        {{ get_items | split:' ' |  sort | join:' ' | truncatewords:item | remove:'...' | split:' ' | last }} 
+      {% endcapture %}
+      <li><a class="caps" href="{{ this_word | strip_newlines | remove:' ' }}">{{ this_word }}<a></li>
+    {% endfor %}
+  </ul>
+  <ul>
+    <li><a href="/index.html">Keyword Index</a></li>
+  </ul>
+</div>
+<div id="scrollable">
+  <div id="content">
+    <div id="home">
+      <h1><a name="API%20Reference">API Reference</a></h1>
       <ul>
-        {% capture get_items %}
-          {% for cat in site.categories %}
-            {{ cat | first }}
-          {% endfor %}
-        {% endcapture %}
-        {% capture num_words %}
-          {{ get_items | split:' ' |  sort | join:' ' | number_of_words }} 
-        {% endcapture %}
         {% for item in (1..num_words) %}
           {% capture this_word %}
             {{ get_items | split:' ' |  sort | join:' ' | truncatewords:item | remove:'...' | split:' ' | last }}
           {% endcapture %}
-          <li><a class="caps" href={{ this_word }}>{{ this_word }}<a></li>
+          <li>
+          <h2><a  class="caps" href="{{ this_word | strip_newlines | remove:' ' }}">{{ this_word | strip_newlines | remove:' ' }}</a></h2>
+            {% for post in site.posts %}
+              {% if this_word contains post.title %}
+                <span>{{ post.content | strip_newlines }}</span>
+              {% endif %}
+            {% endfor %}
+          </li>
         {% endfor %}
       </ul>
-      <h1></h1>
-      <ul>
-        <li><a href="index.html">Keyword Index</a></li>
-      </ul>
     </div>
-
-    <div id="scrollable">
-      <div id="content">
-        <div id="home">
-          <h1><a name="API%20Reference">API Reference</a></h1>
-          <ul>
-            {% for item in (1..num_words) %}
-              {% capture this_word %}
-                {{ get_items | split:' ' |  sort | join:' ' | truncatewords:item | remove:'...' | split:' ' | last }}
-              {% endcapture %}
-              <li>
-                <h2><a  class="caps" href={{ this_word }}>{{ this_word }}</a></h2>
-                {% for post in site.posts %}
-                  {% if this_word contains post.title %}
-                    <span>{{ post.content }}</span>
-                  {% endif %}
-                {% endfor %}
-              </li>
-            {% endfor %}
-          </ul>
-          <h1><a name="Guides">Guides</a></h1>
-          <ul>
-            <li>
-              <h2><a href="index.html">Keyword Index</a></h2>
-              <span>Full index of the Popcorn.js Documentation.</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- Functionality and Syntax Highlighting -->
-    <script type="text/javascript" src="index.js"></script><script type="text/javascript" src="prettify/prettify.js"></script>
-  </body>
-</html>
+  </div>
+</div>
