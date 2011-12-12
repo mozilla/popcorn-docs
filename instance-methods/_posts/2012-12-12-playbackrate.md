@@ -1,4 +1,4 @@
-# playbackrate( [rate] ) #
+# playbackrate( \[rate\] ) #
 
 ## Purpose ##
 

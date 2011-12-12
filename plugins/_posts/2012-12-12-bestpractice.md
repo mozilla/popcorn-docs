@@ -8,7 +8,7 @@ The goals are to provide the best user experience, to empower authors who may or
 
 ## Style ##
 
-* Wherever possible, let the author set the styles, especially for things like fonts and colors. If you want to provide default styles, set classes and create a style sheet in the <head> that can be overridden. When setting style.display, use 'none' to hide and leave it blank to show. Do not assume the page needs your element to display as 'block', as there are other options (inline, inline-block, table, etc.). Allow absolute positioning (top, left, bottom, right) and size (width, height) in options where relevant. Accept all CSS length formats (em, px, %, etc), but percentages are preferred. If position options are provided, set container element to 'position: absolute'.
+* Wherever possible, let the author set the styles, especially for things like fonts and colors. If you want to provide default styles, set classes and create a style sheet in the &lt;head&gt; that can be overridden. When setting style.display, use 'none' to hide and leave it blank to show. Do not assume the page needs your element to display as 'block', as there are other options (inline, inline-block, table, etc.). Allow absolute positioning (top, left, bottom, right) and size (width, height) in options where relevant. Accept all CSS length formats (em, px, %, etc), but percentages are preferred. If position options are provided, set container element to 'position: absolute'.
 * Assume video or any other page elements can change size. If setting size or position of elements, use percentages.
 
 ## Events ##
@@ -16,7 +16,7 @@ The goals are to provide the best user experience, to empower authors who may or
 If your plugin requires resources to load from the network, don't assume it will be loaded by the time the event displays. In start, make sure all resources are loaded before displaying.
 
 * Implement frame method where appropriate for animations, such as movement or opacity.
-* Always implement _teardown. Be careful about memory leaks, and do not assume that either start or end has run.
+* Always implement \_teardown. Be careful about memory leaks, and do not assume that either start or end has run.
 * Allow options to specify onStart, onFrame and onEnd callbacks that get called at the end of your start, frame and end events, with the options object and any other relevant information or elements. Accept a function or a string as the name of a global function. Callback functions should run after your code and should be wrapped in "try/catch" to prevent bad author code from taking down all of Popcorn.
 * If your plugin loads complex elements, such as large images, canvases or iframes, check for duplicates.  Keep a list of created events, and if two events have the same data but don't overlap in time, re-use the first set of elements you created.  Allow for an option to force no duplicates, in case the author wants to change something in a callback.
 * Optimize _setup and _teardown. When events are edited in Popcorn Maker, they are destroyed and re-created for every single change. So assume events will be created and destroyed hundreds of times, often with the same or similar values.

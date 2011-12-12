@@ -1,4 +1,4 @@
-# currentTime( [time] ) #
+# currentTime( \[time\] ) #
 
 ## Purpose ##
 

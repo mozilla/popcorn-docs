@@ -1,4 +1,4 @@
-# Popcorn( id [, optionsObject] ) #
+# Popcorn( id \[, optionsObject\] ) #
 
 ## Purpose ##
 

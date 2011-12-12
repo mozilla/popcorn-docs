@@ -18,29 +18,29 @@ The user sepcifies the the source of there SRT file in a data-timeline-sources a
 
 * Parses a popcorn SRT subtitle file to populate a subtitle track
 
-    <html>
-      <head>
-        <script src="popcorn-complete.js"></script>
-      </head>
-      <body>
-        <video id="video" data-timeline-sources="data/data.json"
+    &lt;html&gt;
+      &lt;head&gt;
+        &lt;script src="popcorn-complete.js"&gt;&lt;/script&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+        &lt;video id="video" data-timeline-sources="data/data.json"
           controls
           width= '250px'
-          poster="../../test/poster.png">
+          poster="../../test/poster.png"&gt;
 
-          <source id='mp4'
+          &lt;source id='mp4'
             src="../../test/trailer.mp4"
-            type='video/mp4; codecs="avc1, mp4a"'>
+            type='video/mp4; codecs="avc1, mp4a"'&gt;
 
-          <source id='ogv'
+          &lt;source id='ogv'
             src="../../test/trailer.ogv"
-            type='video/ogg; codecs="theora, vorbis"'>
+            type='video/ogg; codecs="theora, vorbis"'&gt;
 
-          <p>Your user agent does not support the HTML5 Video element.</p>
+          &lt;p&gt;Your user agent does not support the HTML5 Video element.&lt;/p&gt;
 
-        </video>
-        <div id="footnote-container"></div>
-        <div id="map-container"></div>
-        <div id="iframe-container"></div>
-      </body>
-    </html>
+        &lt;/video&gt;
+        &lt;div id="footnote-container"&gt;&lt;/div&gt;
+        &lt;div id="map-container"&gt;&lt;/div&gt;
+        &lt;div id="iframe-container"&gt;&lt;/div&gt;
+      &lt;/body&gt;
+    &lt;/html&gt;
