@@ -15,7 +15,8 @@ layout: default
     {% endcapture %}
     {% for item in (1..num_words) %}
       {% capture this_word %}
-        {{ get_items | split:' ' |  sort | join:' ' | truncatewords:item | remove:'...' | split:' ' | last }} 
+      <!--{{ get_items | split:' ' |  sort | join:' ' | truncatewords:item | remove:'...' | split:' ' | last }}--> 
+      {{ get_items | split:' ' }} 
       {% endcapture %}
       "{{ this_word }}"
       <li><a class="caps" href="{{ this_word | strip_newlines | remove:' ' }}">{{ this_word }}<a></li>
