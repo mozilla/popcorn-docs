@@ -6,20 +6,16 @@ title: Plugins
   <div class="vertical_divider"></div>
   <h1>API Reference</h1>
   <ul>
-    {% capture get_items %}
-      {% for cat in site.categories %}
-        {{ cat | first }}
-      {% endfor %}
-    {% endcapture %}
-    {% capture num_words %}
-      {{ get_items | split:' ' |  sort | join:' ' | number_of_words }} 
-    {% endcapture %}
-    {% for item in (1..num_words) %}
-      {% capture this_word %}
-        {{ get_items | split:' ' |  sort | join:' ' | truncatewords:item | remove:'...' | split:' ' | last }} 
-      {% endcapture %}
-      <li><a class="caps" href="/{{ this_word | strip_newlines | remove:' ' }}">{{ this_word }}<a></li>
-    {% endfor %}
+    <li><a class="caps" href="/popcorn-docs/effects">Effects</a></li>
+    <li><a class="caps" href="/popcorn-docs/getting-started">Getting Started</a></li>
+    <li><a class="caps" href="/popcorn-docs/instance-methods">Instance Methods</a></li>
+    <li><a class="caps" href="/popcorn-docs/instance-property">Instance Properties</a></li>
+    <li><a class="caps" href="/popcorn-docs/media-methods">Media Methods</a></li>
+    <li><a class="caps" href="/popcorn-docs/modules">Modules</a></li>
+    <li><a class="caps" href="/popcorn-docs/parsers">Parsers</a></li>
+    <li><a class="caps" href="/popcorn-docs/players">Players</a></li>
+    <li><a class="caps" href="/popcorn-docs/plugins">Plugins</a></li>
+    <li><a class="caps" href="/popcorn-docs/static-methods">Static Methods</a></li>
   </ul>
   <ul>
     <li><a href="/index.html">Keyword Index</a></li>
