@@ -24,26 +24,14 @@ title: Instance Methods
 <div id="scrollable">
   <div id="content">
     <h1><a name="{{ page.title }}">{{ page.title }}</a></h1>
-    {% for post in site.categories.instance-methods %}
+    {% for post in site.categories.getting-started %}
       <ul>
-        {% capture currentPost %}
-          {{ post.url | split:'/' | last | split:'.' | first | strip_newlines | remove:" " }}
-        {% endcapture %}
-        {% if currentPost contains "index" %}
-        {% else %}
-          <li><a href="#{{ currentPost | remove:" " | strip_newlines }}">{{ currentPost | remove:" " | strip_newlines }}</a></li>
-        {% endif %}
+        <li><a href="#{{ post.title }}">{{ post.title }}</a></li>
       </ul> 
     {% endfor %}
-    {% for post in site.categories.instance-methods %}
-      {% capture currentPost %}
-        {{ post.url | split:'/' | last | split:'.' | first | strip_newlines | remove:" " }}
-      {% endcapture %}
-      {% if currentPost contains "index" %}
-      {% else %}
-        <a name="{{ currentPost | remove: " " | strip_newlines }}"></a>
-        {{ post.content }}
-      {% endif %}
+    {% for post in site.categories.getting-started %}
+      <a name="{{ post.title }}"></a>
+      {{ post.content }}
     {% endfor %}
   </div>
 </div>
