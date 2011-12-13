@@ -24,12 +24,12 @@ title: Static Methods
 <div id="scrollable">
   <div id="content">
     <h1><a name="{{ page.title }}">{{ page.title }}</a></h1>
-    {% for post in site.categories.getting-started %}
+    {% for post in site.categories.static-methods %}
       <ul>
         <li><a href="#{{ post.title }}">{{ post.title }}</a></li>
       </ul> 
     {% endfor %}
-    {% for post in site.categories.getting-started %}
+    {% for post in site.categories.static-methods %}
       <a name="{{ post.title }}"></a>
       {{ post.content }}
     {% endfor %}
