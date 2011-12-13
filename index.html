@@ -25,19 +25,46 @@ layout: default
     <div id="home">
       <h1><a name="API%20Reference">API Reference</a></h1>
       <ul>
-        {% for item in (1..num_words) %}
-          {% capture this_word %}
-            {{ get_items | split:' ' |  sort | join:' ' | truncatewords:item | remove:'...' | split:' ' | last }}
-          {% endcapture %}
-          <li>
-          <h2><a  class="caps" href="{{ this_word | strip_newlines | remove:' ' }}">{{ this_word | strip_newlines | remove:' ' }}</a></h2>
-            {% for post in site.posts %}
-              {% if this_word contains post.title %}
-                <span>{{ post.content | strip_newlines }}</span>
-              {% endif %}
-            {% endfor %}
-          </li>
-        {% endfor %}
+        <li>
+          <h2><a  class="caps" href="/popcorn-docs/effects">Effects</a></h2>
+          <span>Transitions and visual effects composed on a track events start and end</span>
+        </li>
+        <li>
+          <h2><a  class="caps" href="/popcorn-docs/getting-started">Getting Started</a></h2>
+          <span>First time using Popcorn.js? Take a look here</span>
+        </li>
+        <li>
+          <h2><a  class="caps" href="/popcorn-docs/instance-methods">Instance Methods</a></h2>
+          <span>Various functions accessible on every Popcorn instance</span>
+        </li>
+        <li>
+          <h2><a  class="caps" href="/popcorn-docs/instane-property">Instance Properties</a></h2>
+          <span>Properties that are available to every Popcorn instance</span>
+        </li>
+        <li>
+          <h2><a  class="caps" href="/popcorn-docs/media-methods">Media Methods</a></h2>
+          <span>Various methods that alter the functionality of the current media</span>
+        </li>
+        <li>
+          <h2><a  class="caps" href="/popcorn-docs/modules">Modules</a></h2>
+          <span>Additional functionality added to the Popcorn.js core</span>
+        </li>
+        <li>
+          <h2><a  class="caps" href="/popcorn-docs/parsers">Parsers</a></h2>
+          <span>Parsers to handle various forms of data, such as subtitle, JSON, and XML</span>
+        </li>
+        <li>
+          <h2><a  class="caps" href="/popcorn-docs/players">Players</a></h2>
+          <span>Additional audio and video players to be used with Popcorn.js</span>
+        </li>
+        <li>
+          <h2><a  class="caps" href="/popcorn-docs/plugins">Plugins</a></h2>
+          <span>Add additional functionality to your page with various custom plugins</span>
+        </li>
+        <li>
+          <h2><a  class="caps" href="/popcorn-docs/static-methods">Static Methods</a></h2>
+          <span>Methods available from the global Popcorn object</span>
+        </li>
       </ul>
     </div>
   </div>
