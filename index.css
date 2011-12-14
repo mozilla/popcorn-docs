@@ -82,7 +82,12 @@ h1, ul, li {
 }
 
 #content ul li a {
-  font-size:200%;
+  color:#000000;
+  font-size:18px;
+  padding:0px;
+  margin:30px 0px;
+  font-weight:normal;
+  text-shadow:#FFFFFF 0px 1px 0px;
 }
 
 #header h1,
