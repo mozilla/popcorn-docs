@@ -81,6 +81,10 @@ h1, ul, li {
   z-index:0;
 }
 
+#content ul li a {
+  font-size:200%;
+}
+
 #header h1,
 #header h1 a,
 #subheader h1 {
