@@ -21,7 +21,7 @@ The user sepcifies the the source of there SRT file in a data-timeline-sources a
 
 * Parses a popcorn SRT subtitle file to populate a subtitle track
 
-{% hightlight html linenos %}
+{% highlight html linenos %}
     <html>
       <head>
         <script src="popcorn-complete.js"></script>
