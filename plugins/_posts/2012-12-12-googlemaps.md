@@ -20,7 +20,7 @@ Adds a map to the target div centered on the location specified by the user.
 * Lng \[Number\]: The Lopngitude hat the map should be centered on. (NOTE: Lat and Lng bust be specified if no Location is provided.)
 * Location \[String\]: An address/location to center the map on. Must be present if lat and lng are not specified.
 
-> Note: using location requires extra loading time, also not specifying both lat/lng and location will
+*Note:* using location requires extra loading time, also not specifying both lat/lng and location will
 cause and error.
 
 ## Tweening ##
