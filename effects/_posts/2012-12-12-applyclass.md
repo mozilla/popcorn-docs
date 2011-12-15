@@ -36,4 +36,4 @@ Apply a class by CSS Selector. Selector is relative to plugin target's `id`
     popcorn.play();
 {% endhighlight %}
 
-[Simple applyclass effect](http://jsfiddle.net/68tzd/)
+[Live demo of applyclass effect](http://jsfiddle.net/68tzd/)

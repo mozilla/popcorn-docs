@@ -9,7 +9,7 @@ Set or Get the Popcorn video object instance currentTime
 
 ## Options ##
 
-* `**time**` - number of seconds or SMPTE format string. If a `time` parameter is passed, set the media's current time to this value. If no `time` parameter, return the value of the `currentTime` property in seconds.
+* **time** - number of seconds or SMPTE format string. If a `time` parameter is passed, set the media's current time to this value. If no `time` parameter, return the value of the `currentTime` property in seconds.
 
 
 ## Use Case ##
@@ -19,5 +19,5 @@ Set or Get the Popcorn video object instance currentTime
 
 ## Examples ##
 
-* get the currentTime of the video as it plays [jsFiddle](http://jsfiddle.net/popcornjs/a3TGF/)
-* set the currentTime and then play [jsFiddle](http://jsfiddle.net/popcornjs/bpge3/)
+* [Live demo of getting the currentTime of the video as it plays](http://jsfiddle.net/popcornjs/a3TGF/)
+* [Live demo of setting the currentTime and then play](http://jsfiddle.net/popcornjs/bpge3/)

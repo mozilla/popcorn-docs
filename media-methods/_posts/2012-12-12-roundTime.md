@@ -7,17 +7,15 @@ title: roundTime
 
 `roundTime()` returns the media's current time rounded to the closest second.
 
-## Options ##
-
-* returns number
+returns number
 
 ## Use Cases ##
 
-* get the currentTime of the media to the closest second as opposed to an exact value
+Get the currentTime of the media to the closest second as opposed to an exact value
 
 ## Examples ##
 
-* Show a rounded current time every timeUpdate cycle [jsFiddle](http://jsfiddle.net/popcornjs/Nd7js/)
+[Live demo showing a rounded current time every timeUpdate cycle](http://jsfiddle.net/popcornjs/Nd7js/)
 
 ## Related ##
 
