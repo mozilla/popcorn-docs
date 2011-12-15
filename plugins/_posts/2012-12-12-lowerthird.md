@@ -18,6 +18,7 @@ Displays information about a speaker over the video, or in the target div
 
 ## Example ##
 
+{% highlight js linenos %} 
     var pop = Popcorn( "#video" );
 
     pop.lowerthird({
@@ -27,5 +28,6 @@ Displays information about a speaker over the video, or in the target div
       name: "Hyde",
       role: "Monster"
     });
+{% endhighlight %}
 
 * [jsFiddle Example](http://jsfiddle.net/popcornjs/d5Du8/)
