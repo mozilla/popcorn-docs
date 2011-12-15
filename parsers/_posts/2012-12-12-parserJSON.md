@@ -33,8 +33,7 @@ The user sepcifies the the source of there json file in a data-timeline-sources 
           poster="../../test/poster.png">
 
           <source id='mp4'
-            src="../../test/trailer.mp4"
-            type='video/mp4; codecs="avc1, mp4a"'>
+            src="../../test/trailer.mp4" type='video/mp4; codecs="avc1, mp4a"'>
 
           <source id='ogv'
             src="../../test/trailer.ogv"

@@ -21,7 +21,7 @@ The user sepcifies the the source of there VTT file in a data-timeline-sources a
 
 * Parses a popcorn VTT subtitle file to populate a subtitle track
 
-{% highlight js linenos %}
+{% highlight html linenos %}
     <html>
       <head>
         <script src="popcorn-complete.js"></script>

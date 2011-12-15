@@ -21,7 +21,7 @@ The user sepcifies the the source of there XML file in a data-timeline-sources a
 
 * Parses a popcorn XML file ( this examples is assuming your XML file is called data.xml ) and that you are using data-timeline-sources
 
-{% highlight js linenos %}
+{% highlight html linenos %}
     <html>
       <head>
         <script src="popcorn-complete.js"></script>
