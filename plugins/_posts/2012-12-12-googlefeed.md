@@ -31,4 +31,4 @@ Adds a feed from a specified blog url into the target div
     });
 {% endhighlight %}
 
-* [jsFiddle Example](http://jsfiddle.net/popcornjs/rZmL8/)
+[Live demo of the googlefeed plugin](http://jsfiddle.net/popcornjs/rZmL8/)

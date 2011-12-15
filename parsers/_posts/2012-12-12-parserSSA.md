@@ -15,11 +15,11 @@ The user sepcifies the the source of there SSA file in a data-timeline-sources a
 
 ## Use Case ##
 
-* Parse a SSA file of subtitle data
+Parse a SSA file of subtitle data
 
 ## Example ##
 
-* Parses a popcorn SSA subtitle file to populate a subtitle track
+Parses a popcorn SSA subtitle file to populate a subtitle track
 
 {% highlight html linenos %}
     <html>

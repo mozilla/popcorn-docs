@@ -15,11 +15,11 @@ The user sepcifies the the source of there VTT file in a data-timeline-sources a
 
 ## Use Case ##
 
-* Parse a VTT file of subtitle data
+Parse a VTT file of subtitle data
 
 ## Example ##
 
-* Parses a popcorn VTT subtitle file to populate a subtitle track
+Parses a popcorn VTT subtitle file to populate a subtitle track
 
 {% highlight html linenos %}
     <html>

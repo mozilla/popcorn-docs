@@ -9,8 +9,8 @@ You can set the framerate to be used for all start/end points of a given Popcorn
 
 ## Options ##
 
-* `**frameRate**` - number. Framerate to be used. Will be used to calculate SMPTE formatted times.
+* **frameRate** - number. Framerate to be used. Will be used to calculate SMPTE formatted times.
 
 ## Example ##
 
-* set the frame rate [jsFiddle](http://jsfiddle.net/popcornjs/XEBqn/)
+[Live demo of setting the frame rate](http://jsfiddle.net/popcornjs/XEBqn/)

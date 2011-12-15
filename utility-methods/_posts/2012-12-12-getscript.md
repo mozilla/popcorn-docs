@@ -14,7 +14,7 @@ Request remote JavaScript resources.
 
 ## Use Case ##
 
-* Load an external script for a plugin ( take a look at many of the current Popcorn plugins )
+Load an external script for a plugin ( take a look at many of the current Popcorn plugins )
 
 ## Examples ##
 

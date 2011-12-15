@@ -31,4 +31,4 @@ Displays a wikipedia aricle in the target specified by the user by using new DOM
     });
 {% endhighlight %}
 
-* [jsFiddle Example](http://jsfiddle.net/popcornjs/5q7QS/)
+[Live demo of the wikipedia plugin](http://jsfiddle.net/popcornjs/5q7QS/)

@@ -15,11 +15,11 @@ The user sepcifies the the source of there TTXT file in a data-timeline-sources 
 
 ## Use Case ##
 
-* Parse a TTXT file of subtitle data
+Parse a TTXT file of subtitle data
 
 ## Example ##
 
-* Parses a popcorn TTXT subtitle file to populate a subtitle track
+Parses a popcorn TTXT subtitle file to populate a subtitle track
 
 {% highlight html linenos %}
     <html>

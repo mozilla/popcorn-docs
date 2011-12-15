@@ -15,11 +15,11 @@ The user sepcifies the the source of there SRT file in a data-timeline-sources a
 
 ## Use Case ##
 
-* Parse a SRT file of subtitle data
+Parse a SRT file of subtitle data
 
 ## Example ##
 
-* Parses a popcorn SRT subtitle file to populate a subtitle track
+Parses a popcorn SRT subtitle file to populate a subtitle track
 
 {% highlight html linenos %}
     <html>

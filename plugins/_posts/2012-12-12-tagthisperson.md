@@ -31,4 +31,4 @@ Adds people's names to an element on the page.
     });
 {% endhighlight %}
 
-* [jsFiddle Example](http://jsfiddle.net/popcornjs/ya23v/)
+[Live demo of the tagthisperson demo](http://jsfiddle.net/popcornjs/ya23v/)

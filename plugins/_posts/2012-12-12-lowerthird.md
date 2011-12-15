@@ -30,4 +30,4 @@ Displays information about a speaker over the video, or in the target div
     });
 {% endhighlight %}
 
-* [jsFiddle Example](http://jsfiddle.net/popcornjs/d5Du8/)
+[Live demo of the lowerthird plugin](http://jsfiddle.net/popcornjs/d5Du8/)

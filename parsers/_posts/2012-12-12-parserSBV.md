@@ -15,11 +15,11 @@ The user sepcifies the the source of there SBV file in a data-timeline-sources a
 
 ## Use Case ##
 
-* Parse a SBV file of subtitle data
+Parse a SBV file of subtitle data
 
 ## Example ##
 
-* Parses a popcorn SBV subtitle file to populate a subtitle track
+Parses a popcorn SBV subtitle file to populate a subtitle track
 
 {% highlight html linenos %}
     <html>

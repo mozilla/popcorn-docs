@@ -29,4 +29,4 @@ Displays a string of text, fading it in and out while transitioning across the h
     });
 {% endhighlight %}
 
-* [jsFiddle Example](http://jsfiddle.net/popcornjs/VDJ2S/)
+[Live demo of the wordriver plugin](http://jsfiddle.net/popcornjs/VDJ2S/)

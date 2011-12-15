@@ -15,11 +15,11 @@ The user sepcifies the the source of there XML file in a data-timeline-sources a
 
 ## Use Case ##
 
-* Parse a XML file of popcorn data
+Parse a XML file of popcorn data
 
 ## Example ##
 
-* Parses a popcorn XML file ( this examples is assuming your XML file is called data.xml ) and that you are using data-timeline-sources
+Parses a popcorn XML file ( this examples is assuming your XML file is called data.xml ) and that you are using data-timeline-sources
 
 {% highlight html linenos %}
     <html>

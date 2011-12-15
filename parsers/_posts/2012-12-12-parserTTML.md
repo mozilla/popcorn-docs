@@ -15,12 +15,11 @@ The user sepcifies the the source of there TTML file in a data-timeline-sources 
 
 ## Use Case ##
 
-* Parse a TTML file of subtitle data
+Parse a TTML file of subtitle data
 
 ## Example ##
 
-* Parses a popcorn TTML subtitle file to populate a subtitle track
-
+Parses a popcorn TTML subtitle file to populate a subtitle track
 
 {% highlight html linenos %}
     <html>

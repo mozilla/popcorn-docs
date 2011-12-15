@@ -35,4 +35,4 @@ Allows the user to add proper attribution to the various sources used on the cur
     });
 {% endhighlight %}
 
-* [jsFiddle Example](http://jsfiddle.net/popcornjs/AykAT/)
+[Live demo of the attribution plugin](http://jsfiddle.net/popcornjs/AykAT/)

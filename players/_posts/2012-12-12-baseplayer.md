@@ -37,4 +37,4 @@ The baseplayer has numerous use cases, such as :
     });
 {% endhighlight %}
 
-[jsFiddle](http://jsfiddle.net/popcornjs/qQ672/)
+[Live demo of how to use the baseplayer](http://jsfiddle.net/popcornjs/qQ672/)

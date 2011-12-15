@@ -15,11 +15,11 @@ The user sepcifies the the source of there json file in a data-timeline-sources 
 
 ## Use Case ##
 
-* Parse a json file of popcorn data
+Parse a json file of popcorn data
 
 ## Example ##
 
-* Parses a popcorn json file ( this examples is assuming your json file is called data.json ) and that you are using data-timeline-sources
+Parses a popcorn json file ( this examples is assuming your json file is called data.json ) and that you are using data-timeline-sources
 
 {% highlight html linenos %}
     <html>
