@@ -29,6 +29,6 @@ Adds people's names to an element on the page.
       href: "http://annasob.wordpress.com",
       target: "tagdiv"
     });
-{% endhightlight %}
+{% endhighlight %}
 
 * [jsFiddle Example](http://jsfiddle.net/popcornjs/ya23v/)

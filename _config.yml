@@ -4,6 +4,6 @@ lsi: false
 pygments: true
 
 # Popcorn.js settings
-auto: true
-server: true
+# auto: true
+# server: true
 
