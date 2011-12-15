@@ -18,13 +18,16 @@ Request remote JavaScript resources.
 
 ## Examples ##
 
+{% highlight js linenos %}
     //  Load in Processing.js
     Popcorn.getScript(
       "http://processingjs.org/content/download/processing-js-1.0.0/processing-1.0.0.min.js"
     );
+{% endhighlight %}
 
 ---------
 
+{% highlight js linenos %}
     Popcorn.xhr({
 
       url: "local-script-resource.js",
@@ -35,9 +38,11 @@ Request remote JavaScript resources.
         */
       }
     });
+{% endhighlight %}
 
 ---------
 
+{% highlight js linenos %}
     Popcorn.getScript(
 
       "local-script-resource.js",
@@ -47,9 +52,11 @@ Request remote JavaScript resources.
         */
       }
     );
+{% endhighlight %}
 
 ---------
 
+{% highlight js linenos %}
     Popcorn.getScript(
 
       "http://processingjs.org/content/download/processing-js-1.0.0/processing-1.0.0.min.js",
@@ -59,3 +66,4 @@ Request remote JavaScript resources.
         */
       }
     );
+{% endhighlight %}

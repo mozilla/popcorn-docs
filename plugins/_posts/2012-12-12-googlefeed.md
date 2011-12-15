@@ -18,6 +18,7 @@ Adds a feed from a specified blog url into the target div
 
 ## Example ##
 
+{% highlight js linenos %}
     var pop = Popcorn( "#video" );
 
     pop.googlefeed({
@@ -28,5 +29,6 @@ Adds a feed from a specified blog url into the target div
       title: "Planet Feed",
       orientation: "Vertical"
     });
+{% endhighlight %}
 
 * [jsFiddle Example](http://jsfiddle.net/popcornjs/rZmL8/)

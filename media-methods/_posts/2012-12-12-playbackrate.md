@@ -13,6 +13,7 @@ Get or set playbackrate of calling Popcorn instance
 
 ## Example ##
 
+{% highlight js linenos %}
     var p = Popcorn( "#video" );
 
     // returns the current playback rate
@@ -20,4 +21,4 @@ Get or set playbackrate of calling Popcorn instance
 
     // set the playback rate
     p.playbackrate( 30 );
-
+{% endhighlight %}

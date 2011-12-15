@@ -21,6 +21,7 @@ The baseplayer has numerous use cases, such as :
 
 ## Examples ##
 
+{% highlight js linenos %}
     Popcorn.player( "baseplayer" );
 
     var pop = Popcorn( "elementID" );
@@ -34,6 +35,6 @@ The baseplayer has numerous use cases, such as :
       text: "Works with the baseplayer!",
       target: "footnote-div"
     });
+{% endhighlight %}
 
-// will work with 1.0
 [jsFiddle](http://jsfiddle.net/popcornjs/qQ672/)

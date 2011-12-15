@@ -17,6 +17,7 @@ This plugin adds a Processing.js sketch to be added to a target div or canvas.
 
 ## Example ##
 
+{% highlight js linenos %}
     var pop = Popcorn( "#video" );
 
     pop.processing({
@@ -26,3 +27,4 @@ This plugin adds a Processing.js sketch to be added to a target div or canvas.
       sketch: "test.pjs",
       noPause: true
     });
+{% endhighlight %}

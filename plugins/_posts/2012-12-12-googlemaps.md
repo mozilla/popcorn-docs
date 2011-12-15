@@ -36,6 +36,7 @@ Tweening animates a streetview from one location to another.
 
 ## Example ##
 
+{% highlight js linenos %}
     var p = Popcorn( "#video" ).googlemap({
       start: 5,
       end: 15,
@@ -44,3 +45,4 @@ Tweening animates a streetview from one location to another.
       lat: 43.665429,
       lng: -79.403323
     });
+{% endhighlight %}

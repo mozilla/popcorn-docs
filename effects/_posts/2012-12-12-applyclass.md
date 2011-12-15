@@ -13,6 +13,7 @@ Apply a class by CSS Selector. Selector is relative to plugin target's `id`
 
 ## Examples ##
 
+{% highlight js linenos %}
     var popcorn = Popcorn( "#video" );
 
     popcorn.footnote({
@@ -33,5 +34,6 @@ Apply a class by CSS Selector. Selector is relative to plugin target's `id`
     });
 
     popcorn.play();
+{% endhighlight %}
 
 Simple applyclass effect [jsFiddle](http://jsfiddle.net/68tzd/)

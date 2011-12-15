@@ -19,6 +19,7 @@ Displays a wikipedia aricle in the target specified by the user by using new DOM
 
 ## Example ##
 
+{% highlight js linenos %}
     var pop = Popcorn( "#video" );
 
     pop.wikipedia({
@@ -28,5 +29,6 @@ Displays a wikipedia aricle in the target specified by the user by using new DOM
       title: "this is an article",
       target: "wikidiv"
     });
+{% endhighlight %}
 
 * [jsFiddle Example](http://jsfiddle.net/popcornjs/5q7QS/)

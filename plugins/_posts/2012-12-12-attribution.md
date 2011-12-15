@@ -21,6 +21,7 @@ Allows the user to add proper attribution to the various sources used on the cur
 
 ## Example ##
 
+{% highlight js linenos %}
     var pop = Popcorn( "#video" );
 
     pop.attribution({
@@ -32,5 +33,6 @@ Allows the user to add proper attribution to the various sources used on the cur
       licenseurl: "http://creativecommons.org/licenses/by-nc/2.0/",
       target: "attribdiv"
     });
+{% endhighlight %}
 
 * [jsFiddle Example](http://jsfiddle.net/popcornjs/AykAT/)

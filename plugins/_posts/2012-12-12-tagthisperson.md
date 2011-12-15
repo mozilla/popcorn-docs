@@ -18,6 +18,7 @@ Adds people's names to an element on the page.
 
 ## Example ##
 
+{% highlight js linenos %}
     var pop = Popcorn( "#video" );
 
     pop.tagthisperson({
@@ -28,5 +29,6 @@ Adds people's names to an element on the page.
       href: "http://annasob.wordpress.com",
       target: "tagdiv"
     });
+{% endhightlight %}
 
 * [jsFiddle Example](http://jsfiddle.net/popcornjs/ya23v/)

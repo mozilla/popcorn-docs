@@ -17,6 +17,7 @@ Displays a string of text, fading it in and out while transitioning across the h
 
 ## Example ##
 
+{% highlight js linenos %}
     var pop = Popcorn( "#video" );
 
     pop.wordriver({
@@ -26,5 +27,6 @@ Displays a string of text, fading it in and out while transitioning across the h
       target: "wordriverdiv",
       color: "red"
     });
+{% endhighlight %}
 
 * [jsFiddle Example](http://jsfiddle.net/popcornjs/VDJ2S/)
