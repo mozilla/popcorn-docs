@@ -1,4 +1,7 @@
-# toseconds #
+---
+title: toSeconds
+---
+# toSeconds #
 
 ## Purpose ##
 

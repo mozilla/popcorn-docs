@@ -1,3 +1,6 @@
+---
+title: playbackrate
+---
 # playbackrate( \[rate\] ) #
 
 ## Purpose ##

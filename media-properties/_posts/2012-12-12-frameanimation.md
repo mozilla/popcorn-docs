@@ -1,3 +1,6 @@
+---
+title: frameAnimation
+---
 # frameAnimation #
 
 ## Purpose ##

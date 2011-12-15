@@ -1,3 +1,6 @@
+---
+title: Baseplayer
+---
 # Baseplayer #
 
 ## Purpose ##

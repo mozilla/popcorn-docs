@@ -1,3 +1,6 @@
+---
+title: currentTime
+---
 # currentTime( \[time\] ) #
 
 ## Purpose ##

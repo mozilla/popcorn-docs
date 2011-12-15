@@ -1,3 +1,6 @@
+---
+title: ApplyClass
+---
 # ApplyClass #
 
 ## Purpose ##

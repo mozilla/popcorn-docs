@@ -1,3 +1,6 @@
+---
+title: SSA parser
+---
 # SSA parser #
 
 ## Purpose ##

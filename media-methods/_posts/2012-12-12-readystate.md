@@ -1,3 +1,6 @@
+---
+title: readyState
+---
 # readyState() #
 
 ## Purpose ##

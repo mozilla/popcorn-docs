@@ -1,4 +1,7 @@
-# Popcorn Googlemap Plug-in #
+---
+title: Googlemap
+---
+# Googlemap #
 
 ## Purpose ##
 

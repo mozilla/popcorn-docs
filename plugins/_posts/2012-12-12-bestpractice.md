@@ -1,4 +1,7 @@
-# best practice #
+---
+title: Best Practice
+---
+# Best Practice #
 
 ## Purpose ##
 

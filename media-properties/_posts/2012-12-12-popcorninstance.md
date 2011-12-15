@@ -1,3 +1,6 @@
+---
+title: Popcorn Instance
+---
 # Popcorn( id \[, optionsObject\] ) #
 
 ## Purpose ##
