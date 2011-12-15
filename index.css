@@ -90,7 +90,7 @@ h1, ul, li {
   text-shadow:#FFFFFF 0px 1px 0px;
 }
 
-#content ul li a:first-letter {
+div ul li a:first-letter {
   text-transform: lowercase;
 }
 #header h1,
