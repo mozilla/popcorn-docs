@@ -21,29 +21,31 @@ The user sepcifies the the source of there XML file in a data-timeline-sources a
 
 * Parses a popcorn XML file ( this examples is assuming your XML file is called data.xml ) and that you are using data-timeline-sources
 
-    &lt;html&gt;
-      &lt;head&gt;
-        &lt;script src="popcorn-complete.js"&gt;&lt;/script&gt;
-      &lt;/head&gt;
-      &lt;body&gt;
-        &lt;video id="video" data-timeline-sources="data/data.json"
+{% highlight js linenos %}
+    <html>
+      <head>
+        <script src="popcorn-complete.js"></script>
+      </head>
+      <body>
+        <video id="video" data-timeline-sources="data/data.json"
           controls
           width= '250px'
-          poster="../../test/poster.png"&gt;
+          poster="../../test/poster.png">
 
-          &lt;source id='mp4'
+          <source id='mp4'
             src="../../test/trailer.mp4"
-            type='video/mp4; codecs="avc1, mp4a"'&gt;
+            type='video/mp4; codecs="avc1, mp4a"'>
 
-          &lt;source id='ogv'
+          <source id='ogv'
             src="../../test/trailer.ogv"
-            type='video/ogg; codecs="theora, vorbis"'&gt;
+            type='video/ogg; codecs="theora, vorbis"'>
 
-          &lt;p&gt;Your user agent does not support the HTML5 Video element.&lt;/p&gt;
+          <p>Your user agent does not support the HTML5 Video element.</p>
 
-        &lt;/video&gt;
-        &lt;div id="footnote-container"&gt;&lt;/div&gt;
-        &lt;div id="map-container"&gt;&lt;/div&gt;
-        &lt;div id="iframe-container"&gt;&lt;/div&gt;
-      &lt;/body&gt;
-    &lt;/html&gt;
+        </video>
+        <div id="footnote-container"></div>
+        <div id="map-container"></div>
+        <div id="iframe-container"></div>
+      </body>
+    </html>
+{% endhighlight %}
