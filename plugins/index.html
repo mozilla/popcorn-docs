@@ -20,12 +20,12 @@ title: Plugins
 <div id="scrollable">
   <div id="content">
     <h1><a name="plugins">Plugins</a></h1>
-    {% for post in site.categories.plugins %}
+    {% for post in site.categories.plugins reversed %}
       <ul>
         <li><a class="lower" href="#{{ post.title }}">{{ post.title }}</a></li>
       </ul> 
     {% endfor %}
-    {% for post in site.categories.plugins %}
+    {% for post in site.categories.plugins reversed %}
       <a name="{{ post.title }}"></a>
       {{ post.content }}
     {% endfor %}

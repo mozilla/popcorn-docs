@@ -20,12 +20,12 @@ title: Modules
 <div id="scrollable">
   <div id="content">
     <h1><a name="modules">Modules</a></h1>
-    {% for post in site.categories.modules %}
+    {% for post in site.categories.modules reversed %}
       <ul>
         <li><a class="lower" href="#{{ post.title }}">{{ post.title }}</a></li>
       </ul> 
     {% endfor %}
-    {% for post in site.categories.modules %}
+    {% for post in site.categories.modules reversed %}
       <a name="{{ post.title }}"></a>
       {{ post.content }}
     {% endfor %}
