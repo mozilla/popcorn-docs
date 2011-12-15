@@ -85,7 +85,7 @@ h1, ul, li {
   z-index:0;
 }
 
-#content ul li a {
+#content ul li a.lower {
   color:#F06433;
   font-size:18px;
   padding:0px;
