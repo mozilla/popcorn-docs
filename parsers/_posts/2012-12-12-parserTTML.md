@@ -30,7 +30,7 @@ The user sepcifies the the source of there TTML file in a data-timeline-sources 
       <body>
         <video id="video" data-timeline-sources="data/data.json"
           controls
-          width= '250px'
+          width='250px'
           poster="../../test/poster.png">
 
           <source id='mp4'
