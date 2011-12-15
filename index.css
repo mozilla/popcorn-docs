@@ -9,6 +9,10 @@ h1, ul, li {
   padding:0px;
 }
 
+code {
+  background-color:#272822;
+}
+
 #header {
   background-color:#515151;
   background:#515151 -webkit-gradient(

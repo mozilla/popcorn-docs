@@ -21,7 +21,7 @@ The user sepcifies the the source of there json file in a data-timeline-sources 
 
 * Parses a popcorn json file ( this examples is assuming your json file is called data.json ) and that you are using data-timeline-sources
 
-{% highlight js linenos %}
+{% highlight html linenos %}
     <html>
       <head>
         <script src="popcorn-complete.js"></script>
