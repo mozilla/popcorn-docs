@@ -2,12 +2,7 @@
 layout: default
 title: Getting Started 
 ---
-{% highlight js linenos %}
- function test() {
-  var asdf;
-  var obj = {};
- }
-{% endhighlight %}
+
 <div id="sidebar">
   <div class="vertical_divider"></div>
   <h1><a href="/popcorn-docs/index.html">API Reference</a></h1>
@@ -25,6 +20,12 @@ title: Getting Started
 </div>
 <div id="scrollable">
   <div id="content">
+{% highlight js linenos %}
+ function test() {
+  var asdf;
+  var obj = {};
+ }
+{% endhighlight %}
     <h1><a name="getting-started">Getting Started</a></h1>
     {% for post in site.categories.getting-started %}
       <ul>
