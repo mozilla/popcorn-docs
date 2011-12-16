@@ -22,30 +22,41 @@ returns a Popcorn instance
 The following code examples show the various ways a Popcorn instance can be created
 
 {% highlight js linenos %}
+
     Popcorn( "#video-element-id" );
+
 {% endhighlight %}
 
 {% highlight js linenos %}
+
     Popcorn( "#video-element-id", {
       frameAnimation: true
     });
+
 {% endhighlight %}
 
 {% highlight js linenos %}
+
     Popcorn( "#video-element-id", {
       framerate: number
     });
+
 {% endhighlight %}
 
 {% highlight js linenos %}
+
     Popcorn( "#video-element-id", {
       /* defaults */
     });
+
 {% endhighlight %}
+
 {% highlight js linenos %}
+
     Popcorn(function() {
       /* code to execute on DOM ready */
     });
+
 {% endhighlight %}
 
 * [Live demo of how to create a popcorn instance](http://jsfiddle.net/popcornjs/Y2uK7/)
