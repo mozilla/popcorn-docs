@@ -1,7 +1,7 @@
 ---
-title: getScript
+title: Popcorn.getScript
 ---
-# getScript #
+# Popcorn.getScript( url, successCallback ) #
 
 ## Purpose ##
 
@@ -9,8 +9,8 @@ Request remote JavaScript resources.
 
 ## Options ##
 
-* **scriptSource** - a string of the name of the script to be loaded
-* **callback** - a function to be run when the script has been loaded
+* **url** - a string of the name of the script to be loaded
+* **successCallback** - a function to be run when the script has been loaded
 
 ## Use Case ##
 

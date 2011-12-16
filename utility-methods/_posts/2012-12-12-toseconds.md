@@ -1,11 +1,11 @@
 ---
-title: toSeconds
+title: Popcorn.util.toSeconds
 ---
-# toSeconds #
+# Popcorn.util.toSeconds( SMPTE ) #
 
 ## Purpose ##
 
-Convert a timestamp to time in seconds
+Convert a SMPTE timestamp to time in seconds
 
 returns a floating point number
 
