@@ -18,7 +18,7 @@ Firing events on a per frame level, increasing accuracy
 ## Examples ##
 
 {% highlight js linenos %}
-    Popcorn("#video-element-id", { frameAnimation: true })`
+    Popcorn("#video-element-id", { frameAnimation: true });
 {% endhighlight %}
 
 [Live demo of updating the currentTime of a video](http://jsfiddle.net/popcornjs/JVUdb/)
