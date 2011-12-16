@@ -1,7 +1,7 @@
 ---
 title: Popcorn Instance
 ---
-# Popcorn( id, optionsObject ) #
+# Popcorn( callback | id, optionsObject ) #
 
 ## Purpose ##
 
@@ -14,6 +14,7 @@ returns a Popcorn instance
 ## Options ##
 
 * **id** - the id of the video element
+* **callback** - instead of specifying an id, Popcorn's constructor can also be used to call a callback function when the DOM is ready ( [more information here](/popcorn-docs/utility-methods/#popcornready) )
 * **optionsObject** - an options object for providing additional options to the popcorn instance, things like [frameAnimation](/popcorn-docs/media-properties/#frameanimation) and [frameRate](/popcorn-docs/media-properties/#framerate) can be specified here as well as [plugin defaults](/popcorn-docs/media-methods/#defaults).
 
 ## Examples ##
@@ -31,13 +32,18 @@ The following code examples show the various ways a Popcorn instance can be crea
 {% highlight js linenos %}
     Popcorn("#video-element-id", { /* defaults */ })
 {% endhighlight %}
+{% highlight js linenos %}
+    Popcorn(function(){ /* code to execute on DOM ready */ });
+{% endhighlight %}
 
 * [Live demo of how to create a popcorn instance](http://jsfiddle.net/popcornjs/Y2uK7/)
 * [Live demo showing the context within various instance methods, as well has how to create an instance](http://jsfiddle.net/popcornjs/G3Csf/)
 * [Live demo of how to also show context but with a plugin instead](http://jsfiddle.net/popcornjs/GmNEY/)
+* [Live demo of the using Popcorn to call a callback function when the DOM is ready](http://jsfiddle.net/popcornjs/2eNJF/)
 
 ## Related ##
 
 * [Baseplayer](/popcorn-docs/players/#baseplayer)
 * [Vimeo](/popcorn-docs/players/#vimeo)
 * [Youtube](/popcorn-docs/players/#youtube)
+* [Popcorn Ready](/popcorn-docs/utility-methods/#popcornready)
