@@ -5,7 +5,7 @@ title: SSA parser
 
 ## Purpose ##
 
-The SSA parser allows the user to parse SSA subtitle data in order to populate a subtitle track event.
+The [SSA](http://matroska.org/technical/specs/subtitles/ssa.html) parser allows the user to parse SSA subtitle data in order to populate a subtitle track event.
 
 The user sepcifies the the source of there SSA file in a data-timeline-sources attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the sepcified file.
 

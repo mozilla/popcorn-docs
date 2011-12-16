@@ -5,7 +5,7 @@ title: JSON parser
 
 ## Purpose ##
 
-The JSON parser allows the user to parse json data that contains popcorn data in order to populate a popcorn instance.
+The [JSON](http://www.json.org/) parser allows the user to parse json data that contains popcorn data in order to populate a popcorn instance.
 
 The user sepcifies the the source of there json file in a data-timeline-sources attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the sepcified file.
 

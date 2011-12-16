@@ -7,9 +7,11 @@ title: data timeline sources
 
 The data-timeline-sources module adds functionality to the Popcorn.js core to parse custom data-timeline-sources attributes on HTML elements.
 
-This is primarily used in association with Popcorn's parsers and allows the user to specify the source of the data to be parsed on the video element inside the data-timeline-sources attribute.  This allows popcorn to create a custom instance based on the data in data-timeline-sources.
+This is primarily used in association with [Popcorn's parsers](/popcorn-docs/parsers/) and allows the user to specify the source of the data to be parsed on the video element inside the data-timeline-sources attribute.  This allows popcorn to create a custom instance based on the data in data-timeline-sources.
 
 ## Examples ##
+
+The following examples showcases how the data-timeline-sources attribute can be used to automatically create popcorn instances.
 
 {% highlight html linenos %}
     <html>

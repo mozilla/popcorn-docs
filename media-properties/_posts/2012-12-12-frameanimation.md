@@ -5,7 +5,7 @@ title: frameAnimation
 
 ## Purpose ##
 
-Setting the Popcorn constructor's option object property `frameAnimation` to `true` will opt-in playback to be managed by a `requestAnimationFrame` loop, resulting in up to 60 fps playback (results may vary depending on system). This will also grant the use of the `frame` callback method in any plugins that implement it.
+Setting the [Popcorn constructors](/popcorn-docs/popcorn-constructor/) option object property `frameAnimation` to `true` will opt-in playback to be managed by a [requestAnimationFrame](https://developer.mozilla.org/en/DOM/window.requestAnimationFrame) loop, resulting in up to 60 fps playback (results may vary depending on system). This will also grant the use of the `frame` callback method in any plugins that implement it.
 
 ## Options ##
 

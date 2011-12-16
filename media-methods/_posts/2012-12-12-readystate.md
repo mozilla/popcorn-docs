@@ -5,7 +5,7 @@ title: readyState
 
 ## Purpose ##
 
-`readyState()` is a passthrough accessor to the HTMLMediaElement property of the same name. `readystate()` returns a value from 0 - 4 describing at which state in loading the video is at. `readystate()` takes no arguements.
+`readyState()` is a passthrough accessor to the [HTMLMediaElement](https://developer.mozilla.org/en/DOM/HTMLMediaElement) property of the same name. `readystate()` returns a value from 0 - 4 describing at which state in loading the video is at. `readystate()` takes no arguements.
 
 returns:
   * 0 ( HAVE_NOTHING ) - no information regarding the media source is available
@@ -23,3 +23,10 @@ Perform tasks as soon as data is available by checking readyStates
 ## Examples ##
 
 [Live demo of basic example showcasing readyStates](http://jsfiddle.net/popcornjs/Qj8xX/)
+
+## Related ##
+
+* [Buffered](#buffered)
+* [Played](#played)
+* [Preload](#preload)
+* [Seekable](#seekable)

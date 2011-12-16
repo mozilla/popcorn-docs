@@ -5,7 +5,7 @@ title: XML parser
 
 ## Purpose ##
 
-The XML parser allows the user to parse XML data that contains popcorn data in order to populate a popcorn instance.
+The [XML](http://en.wikipedia.org/wiki/XML) parser allows the user to parse XML data that contains popcorn data in order to populate a popcorn instance.
 
 The user sepcifies the the source of there XML file in a data-timeline-sources attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the sepcified file.
 

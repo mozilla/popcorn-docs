@@ -5,7 +5,7 @@ title: Baseplayer
 
 ## Purpose ##
 
-The baseplayer is used to provide the user with an empty shell which emulates the HTML5 video element.  This allows the user to use Popcorn.js even without a media element ( video or audio ) which allows for events to be fired off just like your typical Popcorn instance.  All events, functions, and properties that Popcorn provides are extended onto the baseplayer for convenience.
+The baseplayer is used to provide the user with an empty shell which emulates the [HTML5 video element](https://developer.mozilla.org/en/DOM/HTMLVideoElement).  This allows the user to use Popcorn.js even without a media element ( video or audio ) which allows for events to be fired off just like your typical Popcorn instance.  All events, functions, and properties that Popcorn provides are extended onto the baseplayer for convenience.
 
 ## Options ##
 
@@ -38,3 +38,9 @@ The baseplayer has numerous use cases, such as :
 {% endhighlight %}
 
 [Live demo of how to use the baseplayer](http://jsfiddle.net/popcornjs/qQ672/)
+
+## Related ##
+
+* [Popcorn Constructor](/popcorn-docs/popcorn-constructor/)
+* [Vimeo](#vimeo)
+* [Youtube](#youtube)

@@ -7,16 +7,18 @@ title: Popcorn Instance
 
 Creates and returns a new Popcorn instance.
 
-All Popcorn instance methods, plugins and callbacks are chained directly from a Popcorn instance, delegated via its prototype. The context will always be the instance itself.
+All Popcorn [instance methods](/popcorn-docs/media-methods/), [plugins](/popcorn-docs/plugins/) and callbacks are chained directly from a Popcorn instance, delegated via its prototype. The context will always be the instance itself.
 
 returns a Popcorn instance
 
 ## Options ##
 
 * **id** - the id of the video element
-* **optionsObject** - an options object for providing additional options to the popcorn instance, things like frameAnimation and frameRate can be specified here as well as plugin defaults.
+* **optionsObject** - an options object for providing additional options to the popcorn instance, things like [frameAnimation](/popcorn-docs/media-properties/#frameanimation) and [frameRate](/popcorn-docs/media-properties/#framerate) can be specified here as well as [plugin defaults](/popcorn-docs/media-methods/#defaults).
 
 ## Examples ##
+
+The following code examples show the various ways a Popcorn instance can be created
 
 {% highlight js linenos %}
     Popcorn("#video-element-id")
@@ -33,3 +35,9 @@ returns a Popcorn instance
 * [Live demo of how to create a popcorn instance](http://jsfiddle.net/popcornjs/Y2uK7/)
 * [Live demo showing the context within various instance methods, as well has how to create an instance](http://jsfiddle.net/popcornjs/G3Csf/)
 * [Live demo of how to also show context but with a plugin instead](http://jsfiddle.net/popcornjs/GmNEY/)
+
+## Related ##
+
+* [Baseplayer](/popcorn-docs/players/#baseplayer)
+* [Vimeo](/popcorn-docs/players/#vimeo)
+* [Youtube](/popcorn-docs/players/#youtube)

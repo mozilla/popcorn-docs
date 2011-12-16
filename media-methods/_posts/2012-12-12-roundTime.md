@@ -11,7 +11,7 @@ returns number
 
 ## Use Cases ##
 
-Get the currentTime of the media to the closest second as opposed to an exact value
+Get the [currentTime](#currentTime) of the media to the closest second as opposed to an exact value
 
 ## Examples ##
 
@@ -19,4 +19,4 @@ Get the currentTime of the media to the closest second as opposed to an exact va
 
 ## Related ##
 
-* `currentTime()`
+[Current Time](#currentTime)
