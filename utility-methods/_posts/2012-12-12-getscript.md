@@ -18,6 +18,7 @@ Load an external script for a plugin ( take a look at many of the current Popcor
 
 ## Examples ##
 
+An example showing how to get a remote script, no callback being used
 {% highlight js linenos %}
     //  Load in Processing.js
     Popcorn.getScript(
@@ -27,6 +28,7 @@ Load an external script for a plugin ( take a look at many of the current Popcor
 
 ---------
 
+An example how to get a local script using Popcorn.xhr with a callback function
 {% highlight js linenos %}
     Popcorn.xhr({
 
@@ -42,6 +44,7 @@ Load an external script for a plugin ( take a look at many of the current Popcor
 
 ---------
 
+An example of how to get a local script using Popcorn.getScript with a callback
 {% highlight js linenos %}
     Popcorn.getScript(
 
@@ -56,6 +59,7 @@ Load an external script for a plugin ( take a look at many of the current Popcor
 
 ---------
 
+An example of how to get a remote script using Popcorn.getScript with a callback
 {% highlight js linenos %}
     Popcorn.getScript(
 

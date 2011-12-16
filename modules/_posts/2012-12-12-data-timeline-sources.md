@@ -19,7 +19,7 @@ This is primarily used in association with Popcorn's parsers and allows the user
       <body>
         <video id="video" data-timeline-sources="data/data.json"
           controls
-          width= '250px'
+          width='250px'
           poster="../../test/poster.png">
 
           <source id='mp4'
