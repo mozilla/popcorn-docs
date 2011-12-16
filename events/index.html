@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Players 
+title: Events 
 ---
 <div id="sidebar">
   <div class="vertical_divider"></div>
@@ -21,13 +21,13 @@ title: Players
 </div>
 <div id="scrollable">
   <div id="content">
-    <h1><a name="players">Players</a></h1>
-    {% for post in site.categories.players reversed %}
+    <h1><a name="events">Events</a></h1>
+    {% for post in site.categories.events %}
       <ul>
-        <li><a class="lower" href="#{{ post.title }}">{{ post.title }}</a></li>
+        <li><a class="lower" href="#{{ post.title  }}">{{ post.title }}</a></li>
       </ul> 
     {% endfor %}
-    {% for post in site.categories.players reversed %}
+    {% for post in site.categories.events %}
       <a name="{{ post.title }}"></a>
       {{ post.content }}
     {% endfor %}
