@@ -22,6 +22,7 @@ title: Events
 <div id="scrollable">
   <div id="content">
     <h1><a name="events">Events</a></h1>
+    <p>Events in Popcorn.js work on a trigger and listen system.  You are able to trigger events to happen and all of that events listeners will be executed.  This makes it easy in Popcorn.js to perform actions at given moments during a video, for example, perform an action whenever the video is paused would simply consist of listen for the pause event and providing a callback function to perform your actions.</p>
     {% for post in site.categories.events %}
       <ul>
         <li><a class="lower" href="#{{ post.title  }}">{{ post.title }}</a></li>
