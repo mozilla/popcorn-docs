@@ -9,12 +9,12 @@ Adds people's names to an element on the page.
 
 ## Options ##
 
-* Start \[Number\]: is the time that you want this plug-in to execute
-* End \[Number\]: is the time that you want this plug-in to stop executing
-* Person \[String\]: is the name of the person who you want to tag
-* Image \[String\]: is the url to the image of the person - optional
-* href \[String\]: is the url to the webpage of the person - optional
-* Target \[String\]: is the id of the document element that the text needs to be attached to, this target element must exist on the DOM
+* **start** \[Number\] - is the time that you want this plug-in to execute
+* **end** \[Number\] - is the time that you want this plug-in to stop executing
+* **person** \[String\] - is the name of the person who you want to tag
+* **image** \[String\] - is the url to the image of the person - optional
+* **href** \[String\] - is the url to the webpage of the person - optional
+* **target** \[String\] - is the id of the document element that the text needs to be attached to, this target element must exist on the DOM
 
 ## Example ##
 
