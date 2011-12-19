@@ -1,21 +1,20 @@
 ---
 title: currentTime
 ---
-# currentTime( time ) #
+# currentTime( \[time\] ) #
 
 ## Purpose ##
 
-Set or get the currentTime of a Popcorn Instances media element.
+Set or get the `currentTime()` of a Popcorn Instances media element.
 
 ## Options ##
 
-* **time** - number of seconds or [SMPTE](http://en.wikipedia.org/wiki/SMPTE_timecode) format string. If a `time` parameter is passed, set the media's current time to this value. If no `time` parameter, return the value of the `currentTime` property in seconds.
-
+* **time** \[String | Number\] - number of seconds or [SMPTE](http://en.wikipedia.org/wiki/SMPTE_timecode) format string. If a **time** parameter is passed, set the media's current time to this value. If no **time** parameter, return the value of the `currentTime()` property in seconds.
 
 ## Use Case ##
 
 * Navigate to a certain point in the video
-* figure out what time we are at in the video
+* Figure out what time we are at in the video
 
 ## Examples ##
 
@@ -24,6 +23,6 @@ Set or get the currentTime of a Popcorn Instances media element.
 
 ## Related ##
 
-* [Duration](#duration)
-* [Play](#play)
-* [Pause](#pause)
+* [duration](#duration)
+* [play](#play)
+* [pause](#pause)

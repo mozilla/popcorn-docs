@@ -1,7 +1,7 @@
 ---
-title: Baseplayer
+title: baseplayer
 ---
-# Baseplayer #
+# baseplayer( id ) #
 
 ## Purpose ##
 
@@ -9,7 +9,7 @@ The baseplayer is used to provide the user with an empty shell which emulates th
 
 ## Options ##
 
-* **id** - just like using a video or audio source, you pass along the id of the HTML element which the baseplayer will use ( in the form of "#id", where id is the id of your element )
+* **id** \[String\] - just like using a video or audio source, you pass along the id of the HTML element which the baseplayer will use ( in the form of "#id", where id is the id of your element )
 
 ## Use Cases ##
 
@@ -42,5 +42,5 @@ The baseplayer has numerous use cases, such as :
 ## Related ##
 
 * [Popcorn Constructor](/popcorn-docs/popcorn-constructor/)
-* [Vimeo](#vimeo)
-* [Youtube](#youtube)
+* [vimeo](#vimeo)
+* [youtube](#youtube)

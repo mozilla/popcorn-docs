@@ -5,7 +5,7 @@ title: ApplyClass
 
 ## Purpose ##
 
-Apply a class by CSS Selector. Selector is relative to plugin target's `id`
+Apply a class by CSS Selector. Selector is relative to plugin target's id
 
 ## Options ##
 

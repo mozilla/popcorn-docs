@@ -1,7 +1,7 @@
 ---
 title: playbackrate
 ---
-# playbackrate( rate ) #
+# playbackrate( \[rate\] ) #
 
 ## Purpose ##
 
@@ -9,7 +9,7 @@ Get or set playbackrate of calling Popcorn instance
 
 ## Options ##
 
-* **rate** - number. Optional parameter that will set the playbackrate if provided and return the playbackrate if not.
+* **rate** \[Number\] - optional parameter that will set the playbackrate if provided and return the playbackrate if not.
 
 ## Example ##
 

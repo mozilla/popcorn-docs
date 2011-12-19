@@ -19,4 +19,4 @@ Get the [currentTime](#currentTime) of the media to the closest second as oppose
 
 ## Related ##
 
-[Current Time](#currentTime)
+[currentTime](#currentTime)

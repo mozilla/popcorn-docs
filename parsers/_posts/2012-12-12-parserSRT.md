@@ -7,11 +7,11 @@ title: SRT parser
 
 The [SRT](http://matroska.org/technical/specs/subtitles/srt.html) parser allows the user to parse SRT subtitle data in order to populate a subtitle track event.
 
-The user sepcifies the the source of there SRT file in a data-timeline-sources attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the sepcified file.
+The user sepcifies the the source of there SRT file in a [data-timeline-sources](/popcorn-docs/modules/#data-timeline-sources) attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the sepcified file.
 
 ## Options ##
 
-* **data-timeline-sources** - a media element attribute that specifies the source of the file to be parsed
+* **data-timeline-sources** \[String\] - a media element attribute that specifies the source of the file to be parsed
 
 ## Use Case ##
 
