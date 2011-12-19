@@ -9,8 +9,8 @@ Request remote JavaScript resources.
 
 ## Options ##
 
-* **url** - a string of the name of the script to be loaded
-* **successCallback** - a function to be run when the script has been loaded
+* **url** \[String\] - a string of the name of the script to be loaded
+* **successCallback** \[Function\] - a function to be run when the script has been loaded
 
 ## Use Case ##
 
@@ -19,6 +19,7 @@ Load an external script for a plugin ( take a look at many of the current Popcor
 ## Examples ##
 
 An example showing how to get a remote script, no callback being used
+
 {% highlight js linenos %}
     //  Load in Processing.js
     Popcorn.getScript(
@@ -29,6 +30,7 @@ An example showing how to get a remote script, no callback being used
 ---------
 
 An example how to get a local script using Popcorn.xhr with a callback function
+
 {% highlight js linenos %}
     Popcorn.xhr({
 
@@ -45,6 +47,7 @@ An example how to get a local script using Popcorn.xhr with a callback function
 ---------
 
 An example of how to get a local script using Popcorn.getScript with a callback
+
 {% highlight js linenos %}
     Popcorn.getScript(
 
@@ -60,6 +63,7 @@ An example of how to get a local script using Popcorn.getScript with a callback
 ---------
 
 An example of how to get a remote script using Popcorn.getScript with a callback
+
 {% highlight js linenos %}
     Popcorn.getScript(
 

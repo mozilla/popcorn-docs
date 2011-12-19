@@ -9,7 +9,7 @@ An optional way to use Popcorn's constructor.  Instead of passing in an id as a 
 
 ## Options ##
 
-* **callback** - function.  A function that will be called when the DOM is ready 
+* **callback** \[Function\] - function.  A function that will be called when the DOM is ready 
 
 ## Use Case ##
 
