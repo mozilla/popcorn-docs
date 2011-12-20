@@ -1,33 +1,44 @@
 ---
 title: JSON parser
 ---
-# JSON parser #
+# parseJSON( fileName, callback )"#
 
 ## Purpose ##
 
-The [JSON](http://www.json.org/) parser allows the user to parse json data that contains popcorn data in order to populate a popcorn instance.
+The [JSON](http://www.json.org/) parser will parse valid JSON into Popcorn events.
 
-The user sepcifies the the source of there json file in a [data-timeline-sources](/popcorn-docs/modules/#data-timeline-sources) attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the sepcified file.
+The user can also specify the the source of their json file using a [data-timeline-sources](/popcorn-docs/modules/#data-timeline-sources) attribute on the media tag.
+When Popcorn is instantiated, it will search each media element for a data-timeline-sources attribute and try and parse the specified file. NOTE: this requires the use of the [data-timeline-sources module](/popcorn-docs/modules/#data-timeline-sources)
 
 ## Options ##
 
-* **data-timeline-sources** \[String\] - a media element attribute that specifies the source of the file to be parsed
+* **fileName** \[String\] - A path to the JSON file.
+* **callBack** \[Function\] - An optional function to be executed when the JSON data has completed parsing.
 
 ## Use Case ##
 
-Parse a json file of popcorn data
+Parse a JSON file containing popcorn data
 
 ## Example ##
 
-Parses a popcorn json file ( this examples is assuming your json file is called data.json ) and that you are using data-timeline-sources
+Parses a JSON file:
 
 {% highlight html linenos %}
     <html>
       <head>
         <script src="popcorn-complete.js"></script>
+        <script type="text/javascript">
+
+          var popcorn( "#video" );
+
+          popcorn.parseJSON( "data/data.json", function() {
+            alert( "JSON Parsed Successfully" );
+          });
+
+        </script>
       </head>
       <body>
-        <video id="video" data-timeline-sources="data/data.json"
+        <video id="video"
           controls
           width='250px'
           poster="../../test/poster.png">
