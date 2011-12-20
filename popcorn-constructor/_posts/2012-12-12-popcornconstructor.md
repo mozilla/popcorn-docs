@@ -1,5 +1,5 @@
 ---
-title: Popcorn Instance
+title: Popcorn Constructor
 ---
 # Popcorn( callback | id, optionsObject ) #
 
@@ -14,6 +14,7 @@ All Popcorn [media methods](/popcorn-docs/media-methods/), [plugins](/popcorn-do
 * **id** - The id of the media element
 * **callback** - A function to execute when the [DOM is ready](/popcorn-docs/utility-methods/#popcornready).
 * **optionsObject** - An object to specify additional options for the popcorn instance. For example [frameAnimation](/popcorn-docs/media-properties/#frameanimation), [frameRate](/popcorn-docs/media-properties/#framerate), and [plugin defaults](/popcorn-docs/media-methods/#defaults).
+
 
 ## Examples ##
 
