@@ -1,5 +1,5 @@
 ---
-title: Popcorn Instance
+title: Popcorn Constructor 
 ---
 # Popcorn( callback | id, optionsObject ) #
 
@@ -13,9 +13,9 @@ returns a Popcorn instance
 
 ## Options ##
 
-* **id** - the id of the video element
-* **callback** - instead of specifying an id, Popcorn's constructor can also be used to call a callback function when the DOM is ready ( [more information here](/popcorn-docs/utility-methods/#popcornready) )
-* **optionsObject** - an options object for providing additional options to the popcorn instance, things like [frameAnimation](/popcorn-docs/media-properties/#frameanimation) and [frameRate](/popcorn-docs/media-properties/#framerate) can be specified here as well as [plugin defaults](/popcorn-docs/media-methods/#defaults).
+* **id** \[String\] - the id of the video element
+* **callback** \[Function\] - instead of specifying an id, Popcorn's constructor can also be used to call a callback function when the DOM is ready ( [more information here](/popcorn-docs/utility-methods/#popcornready) )
+* **optionsObject** \[Object\] - an options object for providing additional options to the popcorn instance, things like [frameAnimation](/popcorn-docs/media-properties/#frameanimation) and [frameRate](/popcorn-docs/media-properties/#framerate) can be specified here as well as [plugin defaults](/popcorn-docs/media-methods/#defaults).
 
 ## Examples ##
 
