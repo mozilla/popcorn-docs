@@ -101,6 +101,13 @@ section.content {
 	z-index:0;
 }
 
+section.content header nav{
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	-o-column-count:3;
+	column-count:3;
+}
+
 section.content ul li a.lower {
 	color:#F06433;
 	font-size:18px;
