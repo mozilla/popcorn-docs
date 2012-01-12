@@ -101,11 +101,15 @@ section.content {
 	z-index:0;
 }
 
-section.content header nav{
-	-moz-column-count:3;
-	-webkit-column-count:3;
-	-o-column-count:3;
-	column-count:3;
+section.content header nav ul{
+    float:left;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+section.content header nav li{
+    float:left;
+    width: 33%;
 }
 
 section.content ul li a.lower {
@@ -253,7 +257,7 @@ ul ul {
 	margin-top:0.5em;
 }
 
-ul li{
+section.content ul li{
 	list-style: url(img/arrow.png);
 }
 
@@ -309,12 +313,6 @@ a[href].external:after {
 	padding:0;
 }
 
-#index ul li {
+section.content.index-content ul li {
 	list-style: none;
 }
-
-#index ul li a {
-
-}
-
-
