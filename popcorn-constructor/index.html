@@ -2,35 +2,45 @@
 layout: default
 title: Popcorn Constructor
 ---
-<div id="sidebar">
-  <div class="vertical_divider"></div>
+<nav class="main">
   <h1><a href="/popcorn-docs/index.html">API Reference</a></h1>
+
   <ul>
-    <li><a class="caps" href="/popcorn-docs/getting-started">Getting Started</a></li>
-    <li><a class="caps" href="/popcorn-docs/popcorn-constructor">Popcorn Constructor</a></li>
-    <li><a class="caps" href="/popcorn-docs/media-methods">Media Methods</a></li>
-    <li><a class="caps" href="/popcorn-docs/media-properties">Media Properties</a></li>
-    <li><a class="caps" href="/popcorn-docs/utility-methods">Utility Methods</a></li>
-    <li><a class="caps" href="/popcorn-docs/events">Events</a></li>
-    <li><a class="caps" href="/popcorn-docs/plugins">Plugins</a></li>
-    <li><a class="caps" href="/popcorn-docs/players">Players</a></li>
-    <li><a class="caps" href="/popcorn-docs/parsers">Parsers</a></li>
-    <li><a class="caps" href="/popcorn-docs/modules">Modules</a></li>
-    <li><a class="caps" href="/popcorn-docs/effects">Effects</a></li>
+    <li><a href="/popcorn-docs/getting-started">Getting Started</a></li>
+    <li><a class="selected" href="/popcorn-docs/popcorn-constructor">Popcorn Constructor</a></li>
+    <li><a href="/popcorn-docs/media-methods">Media Methods</a></li>
+    <li><a href="/popcorn-docs/media-properties">Media Properties</a></li>
+    <li><a href="/popcorn-docs/utility-methods">Utility Methods</a></li>
+    <li><a href="/popcorn-docs/events">Events</a></li>
+    <li><a href="/popcorn-docs/plugins">Plugins</a></li>
+    <li><a href="/popcorn-docs/players">Players</a></li>
+    <li><a href="/popcorn-docs/parsers">Parsers</a></li>
+    <li><a href="/popcorn-docs/modules">Modules</a></li>
+    <li><a href="/popcorn-docs/effects">Effects</a></li>
   </ul>
-</div>
-<div id="scrollable">
-  <div id="content">
-    <h1><a name="popcorn-constructor">Popcorn Constructor</a></h1>
-    <p>The Popcorn constructor allows the user to create Popcorn instances. An optional options object can be passed along to set properties for the new instance of Popcorn. The constructor can also be used to listen for DOMContentLoaded, executing a callback function when your page has finished loading.</p>
-    {% for post in site.categories.popcorn-constructor %}
-      <ul>
-        <li><a class="lower" href="#{{ post.title  }}">{{ post.title }}</a></li>
-      </ul>
-    {% endfor %}
-    {% for post in site.categories.popcorn-constructor %}
-      <a name="{{ post.title }}"></a>
+</nav>
+
+<div class="scrollable">
+  <section class="content">
+
+    <header>
+      <h1 id="plugins">Popcorn Constructor</h1>
+
+      <p>The Popcorn constructor allows the user to create Popcorn instances. An optional options object can be passed along to set properties for the new instance of Popcorn. The constructor can also be used to listen for DOMContentLoaded, executing a callback function when your page has finished loading.</p>
+    
+      <nav>
+        <ul>
+        {% for post in site.categories.popcorn-constructor reversed %}
+          <li><a class="lower" href="#{{ post.title }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul>
+      </nav>
+    </header>
+
+    {% for post in site.categories.popcorn-constructor reversed %}
+    <article id="{{ post.title }}">
       {{ post.content }}
+    </article>
     {% endfor %}
-  </div>
+  </section>
 </div>

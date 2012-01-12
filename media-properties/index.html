@@ -1,36 +1,46 @@
 ---
 layout: default
-title: Media Properties 
+title: Media Properties
 ---
-<div id="sidebar">
-  <div class="vertical_divider"></div>
+<nav class="main">
   <h1><a href="/popcorn-docs/index.html">API Reference</a></h1>
+
   <ul>
-    <li><a class="caps" href="/popcorn-docs/getting-started">Getting Started</a></li>
-    <li><a class="caps" href="/popcorn-docs/popcorn-constructor">Popcorn Constructor</a></li>
-    <li><a class="caps" href="/popcorn-docs/media-methods">Media Methods</a></li>
-    <li><a class="caps" href="/popcorn-docs/media-properties">Media Properties</a></li>
-    <li><a class="caps" href="/popcorn-docs/utility-methods">Utility Methods</a></li>
-    <li><a class="caps" href="/popcorn-docs/events">Events</a></li>
-    <li><a class="caps" href="/popcorn-docs/plugins">Plugins</a></li>
-    <li><a class="caps" href="/popcorn-docs/players">Players</a></li>
-    <li><a class="caps" href="/popcorn-docs/parsers">Parsers</a></li>
-    <li><a class="caps" href="/popcorn-docs/modules">Modules</a></li>
-    <li><a class="caps" href="/popcorn-docs/effects">Effects</a></li>
+    <li><a href="/popcorn-docs/getting-started">Getting Started</a></li>
+    <li><a href="/popcorn-docs/popcorn-constructor">Popcorn Constructor</a></li>
+    <li><a href="/popcorn-docs/media-methods">Media Methods</a></li>
+    <li><a class="selected" href="/popcorn-docs/media-properties">Media Properties</a></li>
+    <li><a href="/popcorn-docs/utility-methods">Utility Methods</a></li>
+    <li><a href="/popcorn-docs/events">Events</a></li>
+    <li><a href="/popcorn-docs/plugins">Plugins</a></li>
+    <li><a href="/popcorn-docs/players">Players</a></li>
+    <li><a href="/popcorn-docs/parsers">Parsers</a></li>
+    <li><a href="/popcorn-docs/modules">Modules</a></li>
+    <li><a href="/popcorn-docs/effects">Effects</a></li>
   </ul>
-</div>
-<div id="scrollable">
-  <div id="content">
-    <h1><a name="media-properties">Media Properties</a></h1>
-    <p>Media properties are available to the user in order to set attributes on a popcorn instance.  Keep in mind, altering this properties may create undesired results and are use at your own risk ( especially the media property )</p>
+</nav>
+
+<div class="scrollable">
+  <section class="content">
+
+    <header>
+      <h1 id="media-properties">Media Properties</h1>
+
+      <p>Media properties are available to the user in order to set attributes on a popcorn instance.  Keep in mind, altering this properties may create undesired results and are use at your own risk ( especially the media property )</p>
+    
+      <nav>
+        <ul>
+        {% for post in site.categories.media-properties reversed %}
+          <li><a class="lower" href="#{{ post.title  }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul>
+      </nav>
+    </header>
+
     {% for post in site.categories.media-properties reversed %}
-      <ul>
-        <li><a class="lower" href="#{{ post.title }}">{{ post.title }}</a></li>
-      </ul> 
-    {% endfor %}
-    {% for post in site.categories.media-properties reversed %}
-      <a name="{{ post.title }}"></a>
+    <article id="{{ post.title }}">
       {{ post.content }}
+    </article>
     {% endfor %}
-  </div>
+  </section>
 </div>

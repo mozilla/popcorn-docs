@@ -1,27 +1,30 @@
 ---
 layout: default
-title: Events 
+title: Events
 ---
-<div id="sidebar">
-  <div class="vertical_divider"></div>
+<nav class="main">
   <h1><a href="/popcorn-docs/index.html">API Reference</a></h1>
+
   <ul>
-    <li><a class="caps" href="/popcorn-docs/getting-started">Getting Started</a></li>
-    <li><a class="caps" href="/popcorn-docs/popcorn-constructor">Popcorn Constructor</a></li>
-    <li><a class="caps" href="/popcorn-docs/media-methods">Media Methods</a></li>
-    <li><a class="caps" href="/popcorn-docs/media-properties">Media Properties</a></li>
-    <li><a class="caps" href="/popcorn-docs/utility-methods">Utility Methods</a></li>
-    <li><a class="caps" href="/popcorn-docs/events">Events</a></li>
-    <li><a class="caps" href="/popcorn-docs/plugins">Plugins</a></li>
-    <li><a class="caps" href="/popcorn-docs/players">Players</a></li>
-    <li><a class="caps" href="/popcorn-docs/parsers">Parsers</a></li>
-    <li><a class="caps" href="/popcorn-docs/modules">Modules</a></li>
-    <li><a class="caps" href="/popcorn-docs/effects">Effects</a></li>
+    <li><a href="/popcorn-docs/getting-started">Getting Started</a></li>
+    <li><a href="/popcorn-docs/popcorn-constructor">Popcorn Constructor</a></li>
+    <li><a href="/popcorn-docs/media-methods">Media Methods</a></li>
+    <li><a href="/popcorn-docs/media-properties">Media Properties</a></li>
+    <li><a href="/popcorn-docs/utility-methods">Utility Methods</a></li>
+    <li><a class="selected" href="/popcorn-docs/events">Events</a></li>
+    <li><a href="/popcorn-docs/plugins">Plugins</a></li>
+    <li><a href="/popcorn-docs/players">Players</a></li>
+    <li><a href="/popcorn-docs/parsers">Parsers</a></li>
+    <li><a href="/popcorn-docs/modules">Modules</a></li>
+    <li><a href="/popcorn-docs/effects">Effects</a></li>
   </ul>
-</div>
-<div id="scrollable">
-  <div id="content">
-    <h1><a name="events">Events</a></h1>
+</nav>
+
+<div class="scrollable">
+  <section class="content">
+
+    <article id="Events">
+    <h1 id="events">Events</h1>
     <p>Events in Popcorn.js work on a trigger and listen system.  You are able to trigger events to happen and all of that events listeners will be executed.  This makes it easy in Popcorn.js to perform actions at given moments during a video, for example, perform an action whenever the video is paused would simply consist of listen for the pause event and providing a callback function to perform your actions.</p>
     <h1>Coming soon...</h1>
     <p>This part of the documentation is currently being written and is under development.  In the meantime here is a list of standard HTML5 media events and there descriptions ( these may not be implemented yet for YouTube, Vimeo, and other players ).<p>
@@ -37,5 +40,6 @@ title: Events
       <a name="{{ post.title }}"></a>
       {{ post.content }}
     {% endfor %}
-  </div>
+    </article>
+  </section>
 </div>
