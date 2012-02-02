@@ -27,7 +27,7 @@ Parses a popcorn SRT subtitle file to populate a subtitle track
         <script src="popcorn-complete.js"></script>
       </head>
       <body>
-        <video id="video" data-timeline-sources="data/data.json"
+        <video id="video" data-timeline-sources="data/data.srt"
           controls
           width='250px'
           poster="../../test/poster.png">
