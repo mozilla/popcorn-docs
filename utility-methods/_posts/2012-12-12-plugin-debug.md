@@ -6,7 +6,7 @@ title: Popcorn.plugin.debug
 ## Purpose ##
 
 Popcorn.plugin.debug is a boolean flag that toggles error suppression on Popcorn plugin functions (start, end, etc.).
-When set to false, errors are caught and stored inside Popcorn.plugin.errors, and a "errors" event is triggered on the instance.
+When it is set to false, errors are caught and stored inside Popcorn.plugin.errors, and a "error" event is triggered on the instance.
 When set to true, errors will not be suppressed.
 
 ## Options ##
@@ -15,8 +15,8 @@ When set to true, errors will not be suppressed.
 
 ## Use Case ##
 
-* During plugin development, debug mode may be turned on to have errors not suppressed by Popcorn.
-* In production environments, debug mode should be off, and error handling can be performed by listening to the "error" event on the Popcorn instance
+* During plugin development, debug mode may be turned on to have Popcorn suppress errors thrown inside of plugins.
+* In production environments, debug mode should be set to false, enabling error handling can be performed by listening to the "error" event on the Popcorn instance.
 
 ## Examples ##
 
@@ -68,8 +68,8 @@ When set to true, errors will not be suppressed.
 
 {% endhighlight %}
 
-[Live Demo of using Popcorn.plugin.errors (disabled)](http://jsfiddle.net/popcornjs/eV2c4/)
-[Live Demo of using Popcorn.plugin.errors (enabled)](http://jsfiddle.net/popcornjs/ssRLb/2/)
+* [Live Demo of using Popcorn.plugin.errors (disabled)](http://jsfiddle.net/popcornjs/eV2c4/)
+* [Live Demo of using Popcorn.plugin.errors (enabled)](http://jsfiddle.net/popcornjs/ssRLb/2/)
 
 ## Related ##
 

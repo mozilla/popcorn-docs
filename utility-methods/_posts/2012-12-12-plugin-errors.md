@@ -5,8 +5,8 @@ title: Popcorn.plugin.errors
 
 ## Purpose ##
 
-Popcorn.plugin.errors is an array object that contains any errors suppressed when popcorn is not in debug mode.
-each error object in Popcorn.plugin.errors will look like:
+Popcorn.plugin.errors is an array object that contains errors thrown from plugins when Popcorn is not in debug mode.
+Each error object in Popcorn.plugin.errors will look like:
 {% highlight js %}
     {
       plugin: pluginName,
@@ -22,7 +22,7 @@ each error object in Popcorn.plugin.errors will look like:
 ## Use Case ##
 
 * Inspection of this object can help a developer solve problems with their Popcorn projects.
-* The redirection of errors to Popcorn.plugin.errors makes sure that execution of the entire project continues even in the case a single plugin breaks.
+* The redirection of errors to Popcorn.plugin.errors makes sure that execution of the entire project continues even in the case of a single plugin failing during runtime.
 
 ## Examples ##
 
@@ -52,10 +52,10 @@ each error object in Popcorn.plugin.errors will look like:
 
 {% endhighlight %}
 
-[Live Demo of using Popcorn.plugin.errors](http://jsfiddle.net/popcornjs/kVgVH/2/)
+* [Live Demo of using Popcorn.plugin.errors](http://jsfiddle.net/popcornjs/kVgVH/2/)
 
 ## Related ##
 
-* [Popcorn.plugin.errors](#Popcorn.plugin.debug)
+* [Popcorn.plugin.debug](#Popcorn.plugin.debug)
 * [listen](/popcorn-docs/media-methods/#listen)
 * [Popcorn.plugin](#Popcorn.plugin)
