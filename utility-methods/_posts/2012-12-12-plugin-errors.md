@@ -17,7 +17,7 @@ Each error object in Popcorn.plugin.errors will look like:
 
 ## Options ##
 
-* **Popcorn.plugin.errors** \[Array\] - Stores suppressed errors from plugins
+* **Popcorn.plugin.errors** \[Array Object\] - Stores suppressed errors from plugins
 
 ## Use Case ##
 
