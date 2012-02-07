@@ -1,5 +1,5 @@
 ---
-title Popcorn.plugin.debug
+title: Popcorn.plugin.debug
 ---
 # Popcorn.plugin.debug #
 

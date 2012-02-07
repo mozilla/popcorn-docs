@@ -1,5 +1,5 @@
 ---
-title Popcorn.plugin.errors
+title: Popcorn.plugin.errors
 ---
 # Popcorn.plugin.errors #
 
