@@ -1,15 +1,19 @@
+---
+title: ApplyClass
+---
 # ApplyClass #
 
 ## Purpose ##
 
-Apply a class by CSS Selector. Selector is relative to plugin target's `id`
+Apply a class by CSS Selector. Selector is relative to plugin target's id
 
 ## Options ##
 
-* `**class**` - specifies the class to apply to the plugin container, can be seperated by spaces for more then one class
+* **class** - Specifies the class to apply to the plugin container, can be seperated by spaces for more then one class
 
 ## Examples ##
 
+{% highlight js linenos %}
     var popcorn = Popcorn( "#video" );
 
     popcorn.footnote({
@@ -30,5 +34,6 @@ Apply a class by CSS Selector. Selector is relative to plugin target's `id`
     });
 
     popcorn.play();
+{% endhighlight %}
 
-Simple applyclass effect [jsFiddle](http://jsfiddle.net/68tzd/)
+[Live demo of applyclass effect](http://jsfiddle.net/68tzd/)

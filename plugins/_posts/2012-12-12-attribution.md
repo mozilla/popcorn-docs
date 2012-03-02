@@ -1,3 +1,6 @@
+---
+tite: Attribution
+---
 # Attribution #
 
 ## Purpose ##
@@ -6,18 +9,19 @@ Allows the user to add proper attribution to the various sources used on the cur
 
 ## Options ##
 
-* Start [Number]: is the time that you want this plug-in to execute
-* End [Number]: is the time that you want this plug-in to stop executing
-* Target [String]: is the id of the document element that the text needs to be attached to, this target element must exist on the DOM
-* nameofwork [String]: is the title of the attribution
-* NameOfWorkUrl [String]: is a url that provides more details about the attribution
-* CopyrightHolder [String]: is the name of the person/institution that holds the rights to the attribution
-* CopyrightHolderUrl [String]: is the url that provides more details about the copyrightholder
-* license [String]: is the type of license that the work is copyrighted under
-* LicenseUrl [String]: is the url that provides more details about the ticense type
+* **start** \[Number\] - is the time that you want this plug-in to execute
+* **end** \[Number\] - is the time that you want this plug-in to stop executing
+* **target** \[String\] - is the id of the document element that the text needs to be attached to, this target element must exist on the DOM
+* **nameofwork** \[String\] - is the title of the attribution
+* **nameOfWorkUrl** \[String\] - is a url that provides more details about the attribution
+* **copyrightHolder** \[String\] - is the name of the person/institution that holds the rights to the attribution
+* **copyrightHolderUrl** \[String\] - is the url that provides more details about the copyrightholder
+* **license** \[String\] - is the type of license that the work is copyrighted under
+* **licenseUrl** \[String\] - is the url that provides more details about the ticense type
 
 ## Example ##
 
+{% highlight js linenos %}
     var pop = Popcorn( "#video" );
 
     pop.attribution({
@@ -29,5 +33,6 @@ Allows the user to add proper attribution to the various sources used on the cur
       licenseurl: "http://creativecommons.org/licenses/by-nc/2.0/",
       target: "attribdiv"
     });
+{% endhighlight %}
 
-* [jsFiddle Example](http://jsfiddle.net/popcornjs/AykAT/)
+[Live demo of the attribution plugin](http://jsfiddle.net/popcornjs/AykAT/)

@@ -1,23 +1,27 @@
+---
+title: TTXT parser
+---
 # TTXT parser #
 
 ## Purpose ##
 
-The TTXT parser allows the user to parse TTXT subtitle data in order to populate a subtitle track event.
+The [TTXT](http://gpac.wp.institut-telecom.fr/mp4box/ttxt-format-documentation/) parser allows the user to parse TTXT subtitle data in order to populate a subtitle track event.
 
-The user sepcifies the the source of there TTXT file in a data-timeline-sources attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the sepcified file.
+The user sepcifies the the source of there TTXT file in a [data-timeline-sources](/popcorn-docs/modules/#data-timeline-sources) attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the sepcified file.
 
 ## Options ##
 
-* **data-timeline-sources** - a media element attribute that specifies the source of the file to be parsed
+* **data-timeline-sources** \[String\] - a media element attribute that specifies the source of the file to be parsed
 
 ## Use Case ##
 
-* Parse a TTXT file of subtitle data
+Parse a TTXT file of subtitle data
 
 ## Example ##
 
-* Parses a popcorn TTXT subtitle file to populate a subtitle track
+Parses a popcorn TTXT subtitle file to populate a subtitle track
 
+{% highlight html linenos %}
     <html>
       <head>
         <script src="popcorn-complete.js"></script>
@@ -25,7 +29,7 @@ The user sepcifies the the source of there TTXT file in a data-timeline-sources 
       <body>
         <video id="video" data-timeline-sources="data/data.json"
           controls
-          width= '250px'
+          width='250px'
           poster="../../test/poster.png">
 
           <source id='mp4'
@@ -44,3 +48,4 @@ The user sepcifies the the source of there TTXT file in a data-timeline-sources 
         <div id="iframe-container"></div>
       </body>
     </html>
+{% endhighlight %}

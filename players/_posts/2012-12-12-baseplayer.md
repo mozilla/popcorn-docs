@@ -1,12 +1,15 @@
-# Baseplayer #
+---
+title: baseplayer
+---
+# baseplayer( id ) #
 
 ## Purpose ##
 
-The baseplayer is used to provide the user with an empty shell which emulates the HTML5 video element.  This allows the user to use Popcorn.js even without a media element ( video or audio ) which allows for events to be fired off just like your typical Popcorn instance.  All events, functions, and properties that Popcorn provides are extended onto the baseplayer for convenience.
+The baseplayer is used to provide the user with an empty shell which emulates the [HTML5 video element](https://developer.mozilla.org/en/DOM/HTMLVideoElement).  This allows the user to use Popcorn.js even without a media element ( video or audio ) which allows for events to be fired off just like your typical Popcorn instance.  All events, functions, and properties that Popcorn provides are extended onto the baseplayer for convenience.
 
 ## Options ##
 
-* **id** - just like using a video or audio source, you pass along the id of the HTML element which the baseplayer will use ( in the form of "#id", where id is the id of your element )
+* **id** \[String\] - just like using a video or audio source, you pass along the id of the HTML element which the baseplayer will use ( in the form of "#id", where id is the id of your element )
 
 ## Use Cases ##
 
@@ -18,6 +21,7 @@ The baseplayer has numerous use cases, such as :
 
 ## Examples ##
 
+{% highlight js linenos %}
     Popcorn.player( "baseplayer" );
 
     var pop = Popcorn( "elementID" );
@@ -31,6 +35,12 @@ The baseplayer has numerous use cases, such as :
       text: "Works with the baseplayer!",
       target: "footnote-div"
     });
+{% endhighlight %}
 
-// will work with 1.0
-[jsFiddle](http://jsfiddle.net/popcornjs/qQ672/)
+[Live demo of how to use the baseplayer](http://jsfiddle.net/popcornjs/qQ672/)
+
+## Related ##
+
+* [Popcorn Constructor](/popcorn-docs/popcorn-constructor/)
+* [vimeo](#vimeo)
+* [youtube](#youtube)
