@@ -27,7 +27,7 @@ Parses a popcorn XML file ( this examples is assuming your XML file is called da
         <script src="popcorn-complete.js"></script>
       </head>
       <body>
-        <video id="video" data-timeline-sources="data/data.json"
+        <video id="video" data-timeline-sources="data/data.XML"
           controls
           width='250px'
           poster="../../test/poster.png">
