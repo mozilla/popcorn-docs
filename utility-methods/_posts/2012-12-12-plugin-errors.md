@@ -57,5 +57,5 @@ Each error object in Popcorn.plugin.errors will look like:
 ## Related ##
 
 * [Popcorn.plugin.debug](#Popcorn.plugin.debug)
-* [listen](/popcorn-docs/media-methods/#listen)
+* [on](/popcorn-docs/media-methods/#on)
 * [Popcorn.plugin](#Popcorn.plugin)

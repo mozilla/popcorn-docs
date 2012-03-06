@@ -74,5 +74,5 @@ When set to true, errors will not be suppressed.
 ## Related ##
 
 * [Popcorn.plugin.errors](#Popcorn.plugin.errors)
-* [listen](/popcorn-docs/media-methods/#listen)
+* [on](/popcorn-docs/media-methods/#on)
 * [Popcorn.plugin](#Popcorn.plugin)

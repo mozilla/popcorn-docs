@@ -1,7 +1,7 @@
 ---
 title: Popcorn.util.toSeconds
 ---
-# Popcorn.util.toSeconds( smpte [, fps ] ) #
+# Popcorn.util.toSeconds( smpte \[, fps \] ) #
 
 ## Purpose ##
 
