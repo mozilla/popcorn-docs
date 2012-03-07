@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Parsers
+title: Addon Development
 ---
 <nav class="main">
   <h1><a href="/popcorn-docs/index.html">API Reference</a></h1>
 
   <ul>
     <li><a href="/popcorn-docs/getting-started">Getting Started</a></li>
-		<li><a href="/popcorn-docs/addon-development">Addon Development</a></li>
+		<li><a class="selected" href="/popcorn-docs/addon-development">Addon Development</a></li>
     <li><a href="/popcorn-docs/popcorn-constructor">Popcorn Constructor</a></li>
     <li><a href="/popcorn-docs/media-methods">Media Methods</a></li>
     <li><a href="/popcorn-docs/media-properties">Media Properties</a></li>
@@ -15,7 +15,7 @@ title: Parsers
     <li><a href="/popcorn-docs/events">Events</a></li>
     <li><a href="/popcorn-docs/plugins">Plugins</a></li>
     <li><a href="/popcorn-docs/players">Players</a></li>
-    <li><a class="selected" href="/popcorn-docs/parsers">Parsers</a></li>
+    <li><a href="/popcorn-docs/parsers">Parsers</a></li>
     <li><a href="/popcorn-docs/modules">Modules</a></li>
     <li><a href="/popcorn-docs/effects">Effects</a></li>
   </ul>
@@ -25,20 +25,19 @@ title: Parsers
   <section class="content">
 
     <header>
-      <h1 id="parsers">Parsers</h1>
+      <h1 id="addon-development">Addon Development</h1>
 
-      <p>Parsers parse Popcorn data into events. Data can be stored in various types. JSON and XML can store any kind of Popcorn event, while supported subtitle formats ( SBV, SRT, SSA, TTML, TTXT and VTT ) can be parsed into subtitle events.</p>
-    
+      <p>Interested in writing a cool new addon for Popcorn.js? This is the place to look. You will find in depth information on how to implement a new feature, what tests need to be written, and the style guide the project conforms to.</p>
       <nav>
         <ul>
-        {% for post in site.categories.parsers reversed %}
+        {% for post in site.categories.addon-development reversed %}
           <li><a class="lower" href="#{{ post.title  }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
       </nav>
     </header>
 
-    {% for post in site.categories.parsers reversed %}
+    {% for post in site.categories.addon-development reversed %}
     <article id="{{ post.title }}">
       {{ post.content }}
     </article>
