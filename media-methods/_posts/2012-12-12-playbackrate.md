@@ -1,15 +1,16 @@
 ---
-title: playbackrate
+title: playbackRate
 ---
-# playbackrate( \[rate\] ) #
+# playbackRate( \[rate\] ) #
 
 ## Purpose ##
 
-Get or set playbackrate of calling Popcorn instance
+Get or set playbackRate of calling Popcorn instance. Default rate is 1.
+**Note:** It does not always mute the sound and negative values are not supported yet.
 
 ## Options ##
 
-* **rate** \[Number\] - optional parameter that will set the playbackrate if provided and return the playbackrate if not.
+* **rate** \[Number\] - optional parameter that will set the playback rate if provided and return the playback rate if not.
 
 ## Example ##
 
@@ -17,8 +18,8 @@ Get or set playbackrate of calling Popcorn instance
     var p = Popcorn( "#video" );
 
     // returns the current playback rate
-    p.playbackrate();
+    p.playbackRate();
 
     // set the playback rate
-    p.playbackrate( 30 );
+    p.playbackRate( 30 );
 {% endhighlight %}
