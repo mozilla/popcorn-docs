@@ -4,7 +4,7 @@
 # ie:
 # Host popcorn
 #   HostName popcornjs.org
-#   User myusername
+#   User dseif 
 
 jekyll
 rsync -vaz --delete _site/ -e ssh popcorn:/var/www/popcornjs.org/popcorn-docs/
