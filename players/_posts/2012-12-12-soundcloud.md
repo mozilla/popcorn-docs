@@ -31,7 +31,7 @@ The SoundCloud player plugin allows for the use of all functions and properties 
     pop.play();
 {% endhighlight %}
 
-[Live demo of the SoundCloud player](http://jsfiddle.net/popcornjs/7Ku6T/)
+[Live demo of the SoundCloud player](http://jsfiddle.net/popcornjs/7Ku6T/1/)
 
 ## Related ##
 
