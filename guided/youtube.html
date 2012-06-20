@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <title>Popcorn 101</title>
+  <style>
+    body {
+      color: black;
+      background: #D1D3D4;
+    }
+
+    .highlight {
+      color: black;
+    	background: yellow;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    #gistdiv {
+      width: 600px;
+      float: left;
+    }
+
+    #iframediv {
+      width: 310px;
+      height: 400px;
+      float: right;
+    }
+    
+
+  </style>
+</head>
+<body>
+<div>
+  <audio id="narration" preload="auto" autobuffer controls>
+    <source src="http://videos-origin.mozilla.org/serv/webmademovies/popcorn101/popcorn101youtube.ogg"></source>
+    <source src="http://videos-origin.mozilla.org/serv/webmademovies/popcorn101/popcorn101youtube.mp3"></source>
+  </audio>
+</div>  
+  
+<br>
+This example shows how to create a basic popcorn event, using Youtube as the conductor.
+<div>
+  <div id="gistdiv"></div><div id="iframediv"></div>
+</div>
+
+  <script src="http://popcornjs.org/code/dist/popcorn-complete.min.js"></script>
+  <script src="popcorn.popcorndoc.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script src="timeline-youtube.js"></script>
+
+  <style>
+    .gist {
+      width: 600px;
+      float: left;
+    }
+    .gist .gist-file .gist-data {
+      font-size: 8pt;
+    }
+
+  </style>
+</body>
+</html>
