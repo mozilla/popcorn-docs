@@ -13,9 +13,9 @@ Allows the user to add proper attribution to the various sources used on the cur
 * **end** \[Number\] - is the time that you want this plug-in to stop executing
 * **target** \[String\] - is the id of the document element that the text needs to be attached to, this target element must exist on the DOM
 * **nameofwork** \[String\] - is the title of the attribution
-* **nameOfWorkUrl** \[String\] - is a url that provides more details about the attribution
-* **copyrightHolder** \[String\] - is the name of the person/institution that holds the rights to the attribution
-* **copyrightHolderUrl** \[String\] - is the url that provides more details about the copyrightholder
+* **nameofworkurl** \[String\] - is a url that provides more details about the attribution
+* **copyrightholder** \[String\] - is the name of the person/institution that holds the rights to the attribution
+* **copyrightholderurl** \[String\] - is the url that provides more details about the copyrightholder
 * **license** \[String\] - is the type of license that the work is copyrighted under
 * **licenseUrl** \[String\] - is the url that provides more details about the ticense type
 
