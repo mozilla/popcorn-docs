@@ -6,14 +6,14 @@ The [Popcorn.js](http://github.com/mozilla/popcorn-js) documentation was written
 Requirements
 ===========
 
-* Ruby, I would recommend using [RubyGems](http://docs.rubygems.org/read/chapter/3)
-* Jekyll - `sudo gem install jekyll` if you run into any issues, take a look [here](https://github.com/mojombo/jekyll/wiki/Install)
-* Pygments for styled code samples, take a look at the [installation instructions](http://pygments.org/download/)
+* **Ruby** - I would recommend using [RubyGems](http://docs.rubygems.org/read/chapter/3)
+* **Jekyll** - `sudo gem install jekyll` if you run into any issues, take a look [here](https://github.com/mojombo/jekyll/wiki/Install)
+* **Pygments** - used for styled code samples, take a look at the [installation instructions](http://pygments.org/download/)
 
-Setting up a local instance
+Setting Up a Local Instance
 ===========================
 
-If you want to setup a local instance to test with run the following command (after installing all of the requirements listed above)
+If you want to setup a local instance to test with run the following command (after installing all of the requirements listed above):
 
 `jekyll --server --base-url '/popcorn-docs'`
 
