@@ -33,10 +33,10 @@ All of our documentation is written in [Markdown](http://daringfireball.net/proj
     // Title as it will appear on the page, probably the same as the above title
     # Footnote #
 
-    // A brief explanation of what this method/function/ect is supposed to do
+    // A brief explanation of what this method/function/etc is supposed to do
     ## Purpose ##
 
-    // If there are any options that need to be explained (function parameters, object properties, ect) do it here
+    // If there are any options that need to be explained (function parameters, object properties, etc) do it here
     ## Options ##
 
     // A bulleted list describing each option
