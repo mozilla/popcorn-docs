@@ -33,12 +33,16 @@ All of our documentation is written in [Markdown](http://daringfireball.net/proj
     // Title as it will appear on the page, probably the same as the above title
     # Footnote #
 
-    // A brief explanation of what this method/function/etc is supposed to do
+    // A header for the purpose
     ## Purpose ##
 
-    // If there are any options that need to be explained (function parameters, object properties, etc) do it here
+    // A brief explanation of what this method/function/etc is supposed to do
+    Adds text to an element on the page.
+
+    // A header for the options (if there is any)
     ## Options ##
 
+    // If there are any options that need to be explained (function parameters, object properties, etc) do it here
     // A bulleted list describing each option
     // Be sure to specify the desired type(s) i.e Number
     * **start** \[Number\] - The time you want the footnote to appear.
