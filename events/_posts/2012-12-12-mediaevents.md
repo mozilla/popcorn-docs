@@ -52,8 +52,8 @@ title: media-events
     <td><code>emptied</code>
     </td>
     <td>The media has become empty; for example, this event is sent if the media
-      has already been loaded (or partially loaded), and the <a title="en/nsIDOMHTMLMediaElement"
-      rel="internal" href="https://developer.mozilla.org/En/XPCOM_Interface_Reference/NsIDOMHTMLMediaElement"><code>load()</code></a>&nbsp;method
+      has already been loaded (or partially loaded), and the <a title="HTMLMediaElement"
+      rel="internal" href="https://developer.mozilla.org/en-US/docs/DOM/HTMLMediaElement"><code>load()</code></a>&nbsp;method
       is called to reload it.</td>
   </tr>
   <tr>
@@ -88,13 +88,6 @@ title: media-events
     <td><code>loadstart</code>
     </td>
     <td>Sent when loading of the media begins.</td>
-  </tr>
-  <tr>
-    <td><code>mozaudioavailable</code>
-    </td>
-    <td>Sent when an audio buffer is provided to the audio layer for processing;
-      the buffer contains raw audio samples that may or may not already have
-      been played by the time you receive the event.</td>
   </tr>
   <tr>
     <td><code>pause</code>
