@@ -17,8 +17,8 @@ For example:
 
 ## Examples ##
 
-[Live demo using trackend](http://jsfiddle.net/popcornjs/PTTrq/)
+[Live demo using canplayall](http://jsfiddle.net/popcornjs/PTTrq/)
 
 ## Related ##
 
-[media-events](#media-events)
+[Media Events](#media-events)
