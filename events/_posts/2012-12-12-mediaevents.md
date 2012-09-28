@@ -4,7 +4,7 @@ title: media-events
 
 # Media Events #
 
-<p>This is a list of standard HTML5 media events and there descriptions ( these may not be implemented yet for YouTube, Vimeo, and other players/wrappers ).</p>
+<p>This is a list of standard HTML5 media events and their descriptions ( these may not be implemented yet for YouTube, Vimeo, and other players/wrappers ).</p>
 <br />
 <table border="1">
   <tr>
