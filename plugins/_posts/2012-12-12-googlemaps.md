@@ -19,6 +19,7 @@ Adds a map to the target div centered on the location specified by the user.
 * **lat** \[Number\] - The Latitude that the map should be centered on.
 * **lng** \[Number\] - The Lopngitude hat the map should be centered on. (NOTE: Lat and Lng bust be specified if no Location is provided.)
 * **location** \[String\] - An address/location to center the map on. Must be present if lat and lng are not specified.
+* **onmaploaded** \[Function, optional\] - A callback function that gets fired once the map has loaded. The callback function also receives the options object as well as a reference to the map object.
 
 *Note:* using location requires extra loading time, also not specifying both lat/lng and location will
 cause and error.
@@ -44,5 +45,19 @@ Tweening animates a streetview from one location to another.
       target: "map",
       lat: 43.665429,
       lng: -79.403323
+    });
+{% endhighlight %}
+
+{% highlight js linenos %}
+    var p = Popcorn( "#video" ).googlemap({
+      start: 1,
+      end: 5,
+      type: "STREETVIEW",
+      target: "map2",
+      location: "Toronto, Ontario, Canada",
+      onmaploaded: function( options, map ) {
+        // map is a reference to the actual map object
+        // options is the options object that was passed in initially
+      }
     });
 {% endhighlight %}
