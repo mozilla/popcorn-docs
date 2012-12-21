@@ -18,7 +18,3 @@ For example:
 ## Examples ##
 
 [Live demo using canplayall](http://jsfiddle.net/popcornjs/PTTrq/)
-
-## Related ##
-
-[Media Events](#media-events)
