@@ -29,17 +29,12 @@ Parses a JSON file:
         <script src="popcorn-complete.js"></script>
         <script type="text/javascript">
 
-         document.addEventListener('DOMContentLoaded', function () {
+          var popcorn( "#video" );
 
-            var p = Popcorn("#video");
-
-            p.parseJSON( "data/data.json", function() {
-
+          popcorn.parseJSON( "data/data.json", function() {
             alert( "JSON Parsed Successfully" );
+          });
 
-            });
-
-         }, false);
         </script>
       </head>
       <body>
