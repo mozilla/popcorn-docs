@@ -3,3 +3,5 @@
 
 # Jekyll ignores
 _site
+
+*~
