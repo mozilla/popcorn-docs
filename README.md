@@ -15,7 +15,7 @@ Setting Up a Local Instance
 
 If you want to setup a local instance to test with run the following command (after installing all of the requirements listed above):
 
-`jekyll --server --base-url '/popcorn-docs'`
+`jekyll serve --baseurl '/popcorn-docs'`
 
 This will setup up a local copy of the documentation that can be accessed at http://localhost:4000/popcorn-docs/
 
