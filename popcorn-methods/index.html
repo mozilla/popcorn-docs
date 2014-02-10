@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Plugins
+title: Popcorn Methods
 ---
 <nav class="main">
   <h1><a href="/popcorn-docs/index.html">API Reference</a></h1>
@@ -9,12 +9,12 @@ title: Plugins
     <li><a href="/popcorn-docs/getting-started">Getting Started</a></li>
 		<li><a href="/popcorn-docs/addon-development">Addon Development</a></li>
     <li><a href="/popcorn-docs/popcorn-constructor">Popcorn Constructor</a></li>
-    <li><a href="/popcorn-docs/popcorn-methods">Popcorn Methods</a></li>
+    <li><a class="selected" href="/popcorn-docs/popcorn-methods">Popcorn Methods</a></li>
     <li><a href="/popcorn-docs/media-methods">Media Methods</a></li>
     <li><a href="/popcorn-docs/media-properties">Media Properties</a></li>
     <li><a href="/popcorn-docs/utility-methods">Utility Methods</a></li>
     <li><a href="/popcorn-docs/events">Events</a></li>
-    <li><a class="selected" href="/popcorn-docs/plugins">Plugins</a></li>
+    <li><a href="/popcorn-docs/plugins">Plugins</a></li>
     <li><a href="/popcorn-docs/players">Players</a></li>
     <li><a href="/popcorn-docs/parsers">Parsers</a></li>
     <li><a href="/popcorn-docs/modules">Modules</a></li>
@@ -26,20 +26,20 @@ title: Plugins
   <section class="content">
 
     <header>
-      <h1 id="plugins">Plugins</h1>
+      <h1 id="popcorn-methods">Popcorn Methods</h1>
 
-      <p>Plugins add additional functionality to the users Popcorn video.  They bring a large set of additional features from across the web, such as GoogleMaps, Facebook, Twitter, and many more. In doing so, users can add additional content from these web services and begin to create Popcorn experiences.</p>
+      <p>Popcorn methods for adding, removing, getting or updating popcorn track events. This allows the user to dynamically author a popcorn instance, such as changing the start time of a text event, even while the video is playing.</p>
     
       <nav>
         <ul>
-        {% for post in site.categories.plugins reversed %}
+        {% for post in site.categories.popcorn-methods reversed %}
           <li><a class="lower" href="#{{ post.title  }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
       </nav>
     </header>
 
-    {% for post in site.categories.plugins reversed %}
+    {% for post in site.categories.popcorn-methods reversed %}
     <article id="{{ post.title }}">
       {{ post.content }}
     </article>

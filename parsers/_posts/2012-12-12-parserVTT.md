@@ -7,7 +7,7 @@ title: VTT parser
 
 The [VTT](http://html5doctor.com/video-subtitling-and-webvtt/) parser allows the user to parse VTT subtitle data in order to populate a subtitle track event.
 
-The user sepcifies the the source of there VTT file in a [data-timeline-sources](/popcorn-docs/modules/#data-timeline-sources) attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the sepcified file.
+The user sepcifies the the source of their VTT file in a [data-timeline-sources](/popcorn-docs/modules/#data-timeline-sources) attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the sepcified file.
 
 ## Options ##
 
