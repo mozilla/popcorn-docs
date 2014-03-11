@@ -6,5 +6,5 @@
 #   HostName popcornjs.org
 #   User dseif 
 
-jekyll
+jekyll build
 rsync -vaz --delete _site/ -e ssh popcorn:/var/www/popcornjs.org/popcorn-docs/
