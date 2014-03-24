@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Effects
+title: Media Wrappers
 ---
 <nav class="main">
   <h1><a href="/popcorn-docs/index.html">API Reference</a></h1>
 
   <ul>
     <li><a href="/popcorn-docs/getting-started">Getting Started</a></li>
-		<li><a href="/popcorn-docs/addon-development">Addon Development</a></li>
+    <li><a href="/popcorn-docs/addon-development">Addon Development</a></li>
     <li><a href="/popcorn-docs/popcorn-constructor">Popcorn Constructor</a></li>
     <li><a href="/popcorn-docs/popcorn-methods">Popcorn Methods</a></li>
     <li><a href="/popcorn-docs/media-methods">Media Methods</a></li>
@@ -15,11 +15,11 @@ title: Effects
     <li><a href="/popcorn-docs/utility-methods">Utility Methods</a></li>
     <li><a href="/popcorn-docs/events">Events</a></li>
     <li><a href="/popcorn-docs/plugins">Plugins</a></li>
-    <li><a href="/popcorn-docs/media-wrappers">Media Wrappers</a></li>
+    <li><a class="selected" href="/popcorn-docs/media-wrappers">Media Wrappers</a></li>
     <li><a href="/popcorn-docs/players">Players</a></li>
     <li><a href="/popcorn-docs/parsers">Parsers</a></li>
     <li><a href="/popcorn-docs/modules">Modules</a></li>
-    <li><a class="selected" href="/popcorn-docs/effects">Effects</a></li>
+    <li><a href="/popcorn-docs/effects">Effects</a></li>
   </ul>
 </nav>
 
@@ -27,20 +27,22 @@ title: Effects
   <section class="content">
 
     <header>
-      <h1 id="effects">Effects</h1>
-    
-      <p>Effects define functions that are executed before the start and end of a track event. For example, a developer can create visual cues that signify when an event is starting or ending, notifying users that something is changing within the page. Effects are not limited to visual cues.</p>
+      <h1 id="media-wrappers">Media Wrappers</h1>
+
+      <p>Media wrappers allow Popcorn to be used with various other types of media other than HTML5 video and audio. This means it can be used with YouTube, Vimeo, and SoundCloud.  This creates the potential for various media to be incorporated with Popcorn.js.</p>
+
+      <p>Media wrappers require the popcorn._MediaElementProto.js file to be included in the document, popcorn-complete.js does this for you.</p>
     
       <nav>
         <ul>
-        {% for post in site.categories.effects %}
+        {% for post in site.categories.media-wrappers reversed %}
           <li><a class="lower" href="#{{ post.title  }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
       </nav>
     </header>
 
-    {% for post in site.categories.effects %}
+    {% for post in site.categories.media-wrappers reversed %}
     <article id="{{ post.title }}">
       {{ post.content }}
     </article>
