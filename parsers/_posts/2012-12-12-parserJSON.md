@@ -7,7 +7,7 @@ title: JSON parser
 
 The [JSON](http://www.json.org/) parser will parse valid JSON into Popcorn events.
 
-The user can also specify the the source of their json file using a [data-timeline-sources](/popcorn-docs/modules/#data-timeline-sources) attribute on the media tag.
+The user can also specify the source of their json file using a [data-timeline-sources](/popcorn-docs/modules/#data-timeline-sources) attribute on the media tag.
 When Popcorn is instantiated, it will search each media element for a data-timeline-sources attribute and try and parse the specified file. NOTE: this requires the use of the [data-timeline-sources module](/popcorn-docs/modules/#data-timeline-sources)
 
 ## Options ##
@@ -27,17 +27,17 @@ Parses a JSON file:
     <html>
       <head>
         <script src="popcorn-complete.js"></script>
-         <script type="text/javascript">
+        <script type="text/javascript">
 
-         document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function () {
 
-            var p = Popcorn("#video");
+          var p = Popcorn("#video");
 
-            p.parseJSON( "data/data.json", function() {
+          p.parseJSON( "data/data.json", function() {
             alert( "JSON Parsed Successfully" );
-            });
+          });
 
-         }, false);
+        }, false);
 
         </script>
       </head>
