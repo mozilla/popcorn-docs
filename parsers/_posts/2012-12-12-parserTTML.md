@@ -7,7 +7,7 @@ title: TTML parser
 
 The [TTML](http://www.w3.org/TR/ttaf1-dfxp/) parser allows the user to parse TTML subtitle data in order to populate a subtitle track event.
 
-The user sepcifies the the source of their TTML file in a [data-timeline-sources](/popcorn-docs/modules/#data-timeline-sources) attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the sepcified file.
+The user specifies the source of their TTML file in a [data-timeline-sources](/popcorn-docs/modules/#data-timeline-sources) attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the specified file.
 
 ## Options ##
 
