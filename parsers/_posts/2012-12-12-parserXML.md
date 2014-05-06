@@ -7,7 +7,7 @@ title: XML parser
 
 The [XML](http://en.wikipedia.org/wiki/XML) parser allows the user to parse XML data that contains popcorn data in order to populate a popcorn instance.
 
-The user sepcifies the the source of their XML file in a [data-timeline-sources](/popcorn-docs/modules/#data-timeline-sources) attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the sepcified file.
+The user specifies the source of their XML file in a [data-timeline-sources](/popcorn-docs/modules/#data-timeline-sources) attribute on the video object.  When Popcorn is instantiated it will search each video element for a data-timeline-sources attribute and try and parse the specified file.
 
 ## Options ##
 
@@ -19,7 +19,7 @@ Parse a XML file of popcorn data
 
 ## Example ##
 
-Parses a popcorn XML file ( this examples is assuming your XML file is called data.xml ) and that you are using data-timeline-sources
+Parses a popcorn XML file ( this example is assuming your XML file is called data.xml ) and that you are using data-timeline-sources
 
 {% highlight html linenos %}
     <html>
@@ -27,7 +27,7 @@ Parses a popcorn XML file ( this examples is assuming your XML file is called da
         <script src="popcorn-complete.js"></script>
       </head>
       <body>
-        <video id="video" data-timeline-sources="data/data.XML"
+        <video id="video" data-timeline-sources="data/data.xml"
           controls
           width='250px'
           poster="../../test/poster.png">
