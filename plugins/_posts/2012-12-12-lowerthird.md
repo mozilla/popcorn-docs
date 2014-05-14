@@ -9,8 +9,8 @@ Displays information about a speaker over the video, or in the target div
 
 ## Options ##
 
-* **start** \[Number\] - is the time that you want this plug-in to executei (in seconds)
-* **end** \[Number\] - is the time that you want this plug-in to stop executing (in seconds)
+* **start** \[Number\] - is the time \[in seconds\] that you want this plug-in to execute
+* **end** \[Number\] - is the time \[in seconds\] that you want this plug-in to stop executing
 * **target** \[String\] - is the id of the document element that the content is appended to, this target element must exist on the DOM
 * **salutation** \[String\] - is the speaker's honorific, e.g.: Mr., Ms., Dr., etc.
 * **name** \[String\] - is the speaker's name.

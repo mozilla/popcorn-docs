@@ -9,7 +9,7 @@ Adds people's names to an element on the page.
 
 ## Options ##
 
-* **start** \[Number\] - is the time i\[in seconds\] that you want this plug-in to execute
+* **start** \[Number\] - is the time \[in seconds\] that you want this plug-in to execute
 * **end** \[Number\] - is the time \[in seconds\] that you want this plug-in to stop executing
 * **person** \[String\] - is the name of the person who you want to tag
 * **image** \[String\] - is the url to the image of the person - optional

@@ -9,8 +9,8 @@ Adds a map to the target div centered on the location specified by the user.
 
 ## Options ##
 
-* **start** \[Number\] - The time you want the Googlemap to appear (in seconds).
-* **end** \[Number\] - The time you want the Googlemap to be hidden (in seconds).
+* **start** \[Number\] - is the time \[in seconds\] when you want the Googlemap to appear.
+* **end** \[Number\] - is the time \[in seconds\] when you want the Googlemap to become hidden.
 * **target** \[String\] - Target is the id of the DOM element that you want the map to appear in. This element must be in the DOM
 * **type** \[String, optional\] - either: HYBRID (default), ROADMAP, SATELLITE, TERRAIN, STREETVIEW
 * **zoom** \[Number, optional\] - defaults to 0

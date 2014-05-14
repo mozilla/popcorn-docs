@@ -9,8 +9,8 @@ Adds a feed from a specified blog url into the target div
 
 ## Options ##
 
-* **start** \[Number\] -  is the time that you want this plug-in to execute (in seconds)
-* **end** \[Number\] - is the time that you want this plug-in to stop executing (in seconds)
+* **start** \[Number\] -  is the time \[in seconds\] that you want this plug-in to execute
+* **end** \[Number\] - is the time \[in seconds\] that you want this plug-in to stop executing
 * **target** \[String\] - is the id of the DOM element that you want the feed to appear in. This element must be in the DOM
 * **url** \[String\] - is the url of the blog's feed you are trying to access
 * **title** \[String\] - is the title of the blog you want displayed above the feed

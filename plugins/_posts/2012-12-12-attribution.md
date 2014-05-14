@@ -9,8 +9,8 @@ Allows the user to add proper attribution to the various sources used on the cur
 
 ## Options ##
 
-* **start** \[Number\] - is the time that you want this plug-in to execute (in seconds)
-* **end** \[Number\] - is the time that you want this plug-in to stop executing (in seconds)
+* **start** \[Number\] - is the time \[in seconds\] that you want this plug-in to execute
+* **end** \[Number\] - is the time \[in seconds\] that you want this plug-in to stop executing
 * **target** \[String\] - is the id of the document element that the text needs to be attached to, this target element must exist on the DOM
 * **nameofwork** \[String\] - is the title of the attribution
 * **nameofworkurl** \[String\] - is a url that provides more details about the attribution
