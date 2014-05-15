@@ -9,11 +9,11 @@ Displays a string of text, fading it in and out while transitioning across the h
 
 ## Options ##
 
-* **start** \[Number\] - when to begin the Word River animation
-* **end** \[Number\] - when to finish the Word River animation
+* **start** \[Number\] - is the time \[in seconds\] that you want the Word River animation to begin
+* **end** \[Number\] - is the time \[in seconds\] that you want the Word River animation to finish
 * **text** \[String\] - the text you want to be displayed by Word River
 * **target** \[String\] - the target div to append the text to
-* **color** \[String\] - the color of the text. (can be Hex value i.e. #FFFFFF )
+* **color** \[String\] - the color of the text. Can be an Hex value i.e. #FFFFFF
 
 ## Example ##
 
